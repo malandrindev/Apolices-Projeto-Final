@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Ambientes e segredos
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# IDE e sistema
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+
+# Dados locais e armazenamento
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+storage/*
+!storage/.gitkeep
+
+# Saídas reproduzíveis; a pasta de entrega permanece versionável
+outputs/figures/*
+!outputs/figures/.gitkeep
+outputs/tables/*
+!outputs/tables/.gitkeep
+outputs/comparisons/*
+!outputs/comparisons/.gitkeep
+
+# Pacotes locais
+*.zip

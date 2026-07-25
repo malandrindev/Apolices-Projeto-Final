@@ -1,0 +1,1 @@
+"""Interface demonstrável da plataforma."""
