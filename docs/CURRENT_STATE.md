@@ -1,9 +1,9 @@
 # CURRENT_STATE — protocolo de retomada
 
-CURRENT PHASE: **FINAL RELEASE — produto aceito e congelado; documentação/artefatos/publicação autorizados.**
-CURRENT GATE: Produto/PDF/PPTX/trêsMP4/ZIPlimpo/segredos PASS; pronto para commitlocalfinal e promoção pública.
+CURRENT PHASE: **FINAL RELEASE CONCLUÍDA — produto congelado, artefatos finais e publicação pública verificados.**
+CURRENT GATE: **27/27PASS; FINAL_DELIVERY_READY=YES.** Produto/PDF/PPTX/MP4oficial/ZIPlimpo/README/MIT/segredos/GitHub remotoPASS.
 LAST VALIDATED PRODUCT CHECKPOINT: **4506859**, branch feature/product-ux-hardening.
-NEXT EXACT ACTION: **Salvar commitlocalfinal e promover o snapshot limpo no clone separado; conferir PUBLIC/main/backup/arquivos/ausência.env remotos e registrar a comprovação. Backup jáconferido; não regenerar produto/PDF/PPTX/vídeos.** Não executar IA real ou reabrir desenvolvimento.
+NEXT EXACT ACTION: **STOP — envio manual pelo representante. Confirmar grupo/representante/e-mailsCC; escolher vídeoalternativo apenas se desejado; enviarPDF/PPTX/MP4/ZIP+GitHub até06/10/2026,23h59. Não iniciar nova fase, fazerproviderrequests ou regenerar arquivos válidos.** Não executar IA real ou reabrir desenvolvimento.
 
 ## Finalização autorizada em05/10/2026
 
@@ -13,7 +13,7 @@ NEXT EXACT ACTION: **Salvar commitlocalfinal e promover o snapshot limpo no clon
 - **660arquivos backend/runtime preservados**; scanner149tracked e comparação silenciosa com credenciais locais PASS. .env segue local, ignorado e não tracked.
 - E2E real previamente gravado: run9086f70de148448f8c84b4223a446dd5,37HTTPhistóricos concluídos; Allianz4p nativas+Porto4p tesseract. Schema/citações conferidos. Não alegar processamento integral75/52p nem precisão perfeita. Demo tem especificações fictícias sem validade contratual.
 - Relatório reescrito24seções,25páginas/8figuras; deck10slides; vídeosCOM/SEM concluídos261s, narração Windows local. QAvisual/técnicoPASS; oficialSEM, escutaCOM humana pendente. Master e alternativas binárias locais ignorados.
-- Identidade GitHubPUBLIC/defaultmain conferida. Main antigo082da47d8f034ed266603d8ec8b317113130d647; backup/pre-final-insurminds publicado e verificado no mesmo SHA ANTES de qualquer substituição. Clone C:/dev/I2A2/Apolices-Projeto-Final-PUBLICATION separado; nenhuma substituição de main ainda.
+- Identidade GitHubPUBLIC/defaultmain conferida. Main antigo082da47d8f034ed266603d8ec8b317113130d647; backup/pre-final-insurminds publicado e verificado no mesmo SHA ANTES de qualquer substituição. Clone C:/dev/I2A2/Apolices-Projeto-Final-PUBLICATION separado; substituição normal publicada e conferida porAPI/fetch/tree/READMEHTML,165blobs iguais,sem.env. Código/artefatos da primeira promoção:cfae61ed446b8a2037b9ce1a11d9b1aff75ab64e; recibo local contémHEADremoto final após confirmação documental.
 - Equipe confirmada no README oficial anterior: Vitor Ferreira, José Leonardo Alves Vilela, Wagner Assis. Nome do grupo/representante/emails não documentados; confirmar antes do envio manual. Nenhum e-mail enviado.
 - Matriz27requisitos: docs/FINAL_DELIVERY_VALIDATION.md. Checklist: docs/DELIVERY_CHECKLIST.md. Fonte técnica: docs/InsurMinds_Relatorio_Tecnico.md. Auditoria local: data/processed/final_release/audit/summary.json.
 
@@ -149,3 +149,7 @@ PDF/PPTX/MP4/ZIP acadêmicos são backups do a946882 e não representam a UX C. 
 ## Gate local final de empacotamento
 
 ZIP165entradas/CRC/segredos/hashes/caminhos/extração limpaPASS;10imports isolados, demo30/33p e27campos, referência invertida, exportsPDF/JSON/MD eAppTestcold6abas/8downloads/evidência/revisão/rerunPASS. ZeroSDK/HTTP/gateway. Artefatosbinários e backend/runtime mantidos. Evidência:`data/processed/final_release/audit/zip_smoke.json`.
+
+## Entrega final pronta
+
+Relatório25p/24seções/8figuras, deck10slides e oficialSEM261s/1080p30fps/H264/10.505.676bytes. COM261s/H264/AAC48k/Daniellocal técnicoPASS, escuta humana opcionalpendente. ZIPfinal com165arquivos e três oficiais, .env/master/cache/tooling/alternativas binárias excluídos; códigos/demos/artefatos idênticos aos aprovados no smoke isolado. Publicação PUBLIC/main confirmada, backup/pre-final-insurminds permanece082da47. Commitlocalfinal consultável emHEAD; devoriginoriginal preservado, sempush. Nenhum e-mail enviado.

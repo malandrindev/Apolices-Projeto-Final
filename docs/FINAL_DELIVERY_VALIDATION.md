@@ -21,7 +21,7 @@ Os mínimos oficiais têm prioridade. OCR, imagem digitalizada e segurança est�
 | 11 Tratamento de erros (recomendado) | IngestionError/OcrError/ComparisonError; workspace_recovery.py | tests/; erro LIMITS corrigido4506859; estados conservadores | PASS |
 | 12 Credenciais ocultas (recomendado) | src/config.py; .env.example; .gitignore | Scanner149tracked+2valores privados comparados silenciosamente;0localizações | PASS |
 | 13 Relatório técnico PDF | Projeto_Final_Artefatos/InsurMinds_Relatorio_Tecnico.pdf | Fonte docs/InsurMinds_Relatorio_Tecnico.md;25p/24seções/8figuras, QA integral PASS | PASS |
-| 14 GitHub público final | https://github.com/malandrindev/Apolices-Projeto-Final, main | Identidade/public/defaultmain confirmados; backup remoto082da47; promoção pendente | PENDING_ARTIFACT |
+| 14 GitHub público final | https://github.com/malandrindev/Apolices-Projeto-Final, main | GitHubAPI/fetch/main/backup/tree/READMEHTML PASS;165blobs correspondem; .envausente | PASS |
 | 15 ZIP de código e artefatos | InsurMinds_Projeto_Final.zip; scripts/package_final_release.py | 165entradas; CRC/hashes/extração limpa/10imports/demo/exports/AppTest PASS,0SDK/HTTP | PASS |
 | 16 Pitch Deck nome exato | Projeto_Final_Artefatos/InsurMinds_Projeto_Final.pptx | 10 slides editáveis; PowerPoint1920×1080, inspeção integral PASS | PASS |
 | 17 Vídeo nome exato | Projeto_Final_Artefatos/InsurMinds_Projeto_Final.mp4 | Gravação E2E real; COM/SEM e oficial: probe/decode PASS, mesmo bitstream visual | PASS |
@@ -58,7 +58,7 @@ ZIP limpo contém README/LICENSE/.env.example, requirements, src/interface/tests
 
 ## Publicação e entrega administrativa
 
-Destino autorizado: **https://github.com/malandrindev/Apolices-Projeto-Final**, **main**, visibilidadePUBLIC. Clone separado `C:/dev/I2A2/Apolices-Projeto-Final-PUBLICATION`. Main anterior **082da47d8f034ed266603d8ec8b317113130d647**; backup **backup/pre-final-insurminds** já publicado e conferido no mesmo SHA. Nenhum forcepush ou exclusão do repositório. Promoção final e conferência remota pendentes neste registro de trabalho.
+Destino autorizado: **https://github.com/malandrindev/Apolices-Projeto-Final**, **main**, visibilidadePUBLIC. Clone separado `C:/dev/I2A2/Apolices-Projeto-Final-PUBLICATION`. Main anterior **082da47d8f034ed266603d8ec8b317113130d647**; backup **backup/pre-final-insurminds** já publicado e conferido no mesmo SHA. Nenhum forcepush ou exclusão do repositório. Promoção por commitnormal e conferência remota **PASS**: GitHubAPI confirmou PUBLIC/defaultmain, backup082da47,165arquivos e todas as três mídias oficiais; todos os blobs remotos correspondem à árvore local. READMEHTML renderizado, LICENSE e src/interface/docs presentes, .env/master/runtimeprivado ausentes. A comprovação inicial do código/artefatos está no commit público `cfae61ed446b8a2037b9ce1a11d9b1aff75ab64e`; a atualização documental final conserva esses binários/código e recebe nova conferência remota. Recibo detalhado local:`data/processed/final_release/publication_receipt.json`.
 
 Prazo oficial: **06/10/2026 às23h59**, sem fuso especificado nas capturas. Envio pelo representante para **challenges@i2a2.academy**, assunto **InsurMinds – Projeto Final**, CC aos integrantes, identificação `Entrega do grupo: <nome real>`. Ver [DELIVERY_CHECKLIST.md](DELIVERY_CHECKLIST.md). Nome do grupo, representante e e-mails precisam de confirmação humana; nomes dos três integrantes constam do README oficial anterior. **Nenhum e-mail enviado.**
 
@@ -75,3 +75,7 @@ Qualidade técnica da narraçãoPASS: sem clipping, pico-1,2dB, capítulos sincr
 ## Empacotamento e smoke da extração limpa
 
 O ZIP pré-publicação foi extraído em diretório novo, sem .env privado: **165entradas, CRC/caminhos/symlinks/duplicatas/hashes/arquivos obrigatóriosPASS**. Dez imports da cópia isolada passaram; demoPorto30p/Allianz33p,27campos, mapas/literais/SHA e referência invertidaPASS. ExportsPDF13p/JSON27campos/MD e jornadaAppTest cold→demo→comparar→6abas→8downloads→página/evidência→revisão→rerunPASS, originalpreservado. **0SDK/HTTP/gateway**. Logs locais:`data/processed/final_release/audit/zip_smoke.json` e `zip_smoke_child.json`. Código/demos/artefatos não mudaram após esse smoke; somente os registros de conclusão de gates são incorporados à documentação. Cada ZIP atualizado é novamente conferido por inventário/CRC/hashes/scanner.
+
+## Resultado final
+
+**27/27linhasPASS; nenhum bloqueador oficial de arquivo/produto/publicação.** A alternativa narrada necessita apenas de escuta humana opcional, sem bloquear o oficialSEM. Equipe documentada,README/MITconformes. Administração de envio ainda é manual: confirmar nome cadastrado do grupo, representante e e-mailsCC, escolher alternativa se desejado e enviarPDF/PPTX/MP4/ZIP+GitHub dentro do prazo. Nenhum e-mail foi enviado. Produto permanece congelado; nenhuma nova fase de desenvolvimento ou execuçãoGenAI é autorizada por esta conclusão.

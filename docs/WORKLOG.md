@@ -301,3 +301,12 @@ Registro persistente; novas entradas devem ser acrescentadas, preservando o hist
 
 - ZIPatual165entradas passouCRC/scanner/extração/hash/caminhos/symlink/duplicatas/obrigatórios/no.env.10imports isolados;demo27campos/30+33p/mapas/SHA/literais/referência invertida;PDF13p/JSON/MD eAppTestcold6abas/8downloads/página/revisão/rerunPASS,0SDK/HTTP/gateway. Inputs preservados. Nenhuma suíte/gateGenAI repetido.
 - QA documental25p/10slides e vídeoSEM261s/1080p30fps/H264/10.505.676bytes finaisPASS. COM261s/14.560.310bytes/AAC48k/vozDaniellocaltécnicoPASS, escuta humana opcionalpendente. Nenhum binário válido regenerado nesta retomada.
+
+
+## 2026-10-05 — FINAL RELEASE — publicação e encerramento
+
+- Checkpoint de preparação localb0daf451f83e02b4a3421d456b6e2c654b3a2fe3 criado ANTES da publicação; comprovação remota incorporada no mesmo commitfinal local, conservando todos os checkpoints anteriores e preservando a preparação em ref local. Devoriginoriginal não recebeu push.
+- Clone separado verificou origemexata/PUBLIC/defaultmain/backupremote082da47/árvorelimpa; somente então removeu conteúdoobsoleto tracked, preservou.git e copiou snapshotlimpo165arquivos. Scannerfresh165stagedPASS, bytes todos iguais manifesto, dois segredos locais comparados silenciosamente, .envausente e todosblobs<95MB.
+- Commitnormal público inicialcfae61ed446b8a2037b9ce1a11d9b1aff75ab64e; pushnormalmain082da47→cfae61e, semforce. API/fetch/main/backup/165blobs/READMEHTML/LICENSE/src/interface/docs/PDF/PPTX/MP4/no.env conferidos remotamentePASS. Backuppre-final-insurminds preservado. Atualização documentalfinal recebe commitnormal e conferência remota, semalterarcódigo/binários.
+- Matriz27/27PASS; fonte/editáveis/figuras finais coerentes. SomenteZIP/registrosmetadados incorporam comprovação final; PDF/PPTX/vídeos/produto/demos NÃOregenerados. Último recibo localpublication_receipt.json registraHEADremotofinal eZIPmanifestregistraarquivo atual.
+- FINAL_DELIVERY_READY=YES: envioadministrativo manual pelo representante, nomegrupo/e-mails ainda aconfirmar. OficialSEM completo; narrado disponíveltecnicamenteválido, escuta humana opcional. Prazo06/10/2026,23h59, challenges@i2a2.academy, assuntoInsurMinds – Projeto Final.0novas requestsproviders,0e-mails. STOP—END OF FINAL RELEASE.
