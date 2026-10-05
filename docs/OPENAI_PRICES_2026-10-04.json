@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "verified_on": "2026-10-04",
+  "currency": "USD",
+  "unit": "per_1M_text_tokens",
+  "scenario": "standard_reference_no_complimentary_credit_assumed",
+  "cache_write_input_multiplier": 1.25,
+  "models": {
+    "gpt-5.6-luna": {
+      "input": 0.2,
+      "cached_input": 0.02,
+      "output": 1.2,
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5.6-luna"
+    },
+    "gpt-5.6-terra": {
+      "input": 2,
+      "cached_input": 0.2,
+      "output": 12,
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5.6-terra"
+    },
+    "gpt-5.6-sol": {
+      "input": 4,
+      "cached_input": 0.4,
+      "output": 20,
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5.6-sol"
+    },
+    "gpt-5.4-mini-2026-03-17": {
+      "input": 0.75,
+      "cached_input": 0.075,
+      "output": 4.5,
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5.4-mini"
+    },
+    "gpt-5.4-2026-03-05": {
+      "input": 2.5,
+      "cached_input": 0.25,
+      "output": 15,
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5.4"
+    },
+    "gpt-5.2-2025-12-11": {
+      "input": 1.75,
+      "cached_input": 0.175,
+      "output": 14,
+      "source_url": "https://developers.openai.com/api/docs/models/gpt-5.2"
+    }
+  },
+  "limitations": [
+    "Estimate only; effective service tier, credits, account policy, taxes and actual tokens can change billing.",
+    "No cached-input discount assumed. All input valued at 1.25x as a conservative cache-write scenario.",
+    "Reverify rates and models before any authorized inference.",
+    "The global 1.25 input multiplier is a conservative scenario reserve, not a claim that every model has a cache-write surcharge. Added snapshots are routing options, not a change of the principal model family."
+  ]
+}

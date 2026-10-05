@@ -1,0 +1,529 @@
+{
+  "schema_version": 1,
+  "dataset_version": "demo-do-v1",
+  "demo": true,
+  "source_name": "allianz_demo_policy.pdf",
+  "document_sha256": "13dccec130a0637d8ab79b79f53fdab88bab3681ca0a4a807503e7440f808be1",
+  "original_source_file": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+  "original_source_sha256": "1778f9d09c187996e5cef8fda73a51c89ced0d0dc1772aaa4f327a9f5eb9a6cc",
+  "metadata": {
+    "insurer": "Allianz Seguros S.A.",
+    "display_name": "ALLIANZ",
+    "branch": "D&O",
+    "product_name": "Demonstração acadêmica D&O",
+    "company_type": "Capital fechado",
+    "document_type": "Documento de demonstração (especificação sintética + excertos)",
+    "period": "01/01/2026 a 31/12/2026",
+    "currency": "BRL",
+    "susep_process": "15414.901113/2017-96",
+    "wording_version": "Dezembro/2025"
+  },
+  "specification": {
+    "insurer": "Allianz Seguros S.A.",
+    "policy_number": "DEMO-D&O-ALLIANZ-2026-002",
+    "insured": "ALPHA TECNOLOGIA S.A.",
+    "effective_date": "2026-01-01",
+    "expiration_date": "2026-12-31",
+    "currency": "BRL",
+    "premium": "R$ 135.000",
+    "LMG": "R$ 30.000.000",
+    "retention": "R$ 250.000",
+    "retroactive_date": "01/01/2018"
+  },
+  "synthetic_fields": [
+    "insurer",
+    "policy_number",
+    "insured",
+    "effective_date",
+    "expiration_date",
+    "currency",
+    "premium",
+    "LMG",
+    "retention",
+    "retroactive_date",
+    "selected_coverages",
+    "selected_extensions",
+    "territory"
+  ],
+  "fields": {
+    "seguradora": {
+      "expected_value": "Allianz Seguros S.A.",
+      "status": "FOUND",
+      "source_document": "allianz_demo_policy.pdf",
+      "source_page": 2,
+      "original_source_document": null,
+      "original_source_page": null,
+      "evidence_excerpt": "Seguradora: Allianz Seguros S.A.",
+      "origin": "synthetic_specification",
+      "confidence_basis": "Dado fictício explícito da página 2; não emitido.",
+      "supporting_evidence": [],
+      "source_type": "synthetic_specification"
+    },
+    "tomador_segurado": {
+      "expected_value": "ALPHA TECNOLOGIA S.A.",
+      "status": "FOUND",
+      "source_document": "allianz_demo_policy.pdf",
+      "source_page": 2,
+      "original_source_document": null,
+      "original_source_page": null,
+      "evidence_excerpt": "Tomador: ALPHA TECNOLOGIA S.A.",
+      "origin": "synthetic_specification",
+      "confidence_basis": "Dado fictício explícito da página 2; não emitido.",
+      "supporting_evidence": [],
+      "source_type": "synthetic_specification"
+    },
+    "numero_apolice": {
+      "expected_value": "DEMO-D&O-ALLIANZ-2026-002",
+      "status": "FOUND",
+      "source_document": "allianz_demo_policy.pdf",
+      "source_page": 2,
+      "original_source_document": null,
+      "original_source_page": null,
+      "evidence_excerpt": "Número da apólice demo: DEMO-D&O-ALLIANZ-2026-002",
+      "origin": "synthetic_specification",
+      "confidence_basis": "Dado fictício explícito da página 2; não emitido.",
+      "supporting_evidence": [],
+      "source_type": "synthetic_specification"
+    },
+    "vigencia_inicio": {
+      "expected_value": "01/01/2026",
+      "status": "FOUND",
+      "source_document": "allianz_demo_policy.pdf",
+      "source_page": 2,
+      "original_source_document": null,
+      "original_source_page": null,
+      "evidence_excerpt": "Início da vigência: 01/01/2026",
+      "origin": "synthetic_specification",
+      "confidence_basis": "Dado fictício explícito da página 2; não emitido.",
+      "supporting_evidence": [],
+      "source_type": "synthetic_specification"
+    },
+    "vigencia_fim": {
+      "expected_value": "31/12/2026",
+      "status": "FOUND",
+      "source_document": "allianz_demo_policy.pdf",
+      "source_page": 2,
+      "original_source_document": null,
+      "original_source_page": null,
+      "evidence_excerpt": "Fim da vigência: 31/12/2026",
+      "origin": "synthetic_specification",
+      "confidence_basis": "Dado fictício explícito da página 2; não emitido.",
+      "supporting_evidence": [],
+      "source_type": "synthetic_specification"
+    },
+    "moeda": {
+      "expected_value": "BRL",
+      "status": "FOUND",
+      "source_document": "allianz_demo_policy.pdf",
+      "source_page": 2,
+      "original_source_document": null,
+      "original_source_page": null,
+      "evidence_excerpt": "Moeda: BRL",
+      "origin": "synthetic_specification",
+      "confidence_basis": "Dado fictício explícito da página 2; não emitido.",
+      "supporting_evidence": [],
+      "source_type": "synthetic_specification"
+    },
+    "limite_maximo_garantia": {
+      "expected_value": "R$ 30.000.000",
+      "status": "FOUND",
+      "source_document": "allianz_demo_policy.pdf",
+      "source_page": 2,
+      "original_source_document": null,
+      "original_source_page": null,
+      "evidence_excerpt": "Limite Máximo de Garantia (LMG): R$ 30.000.000",
+      "origin": "synthetic_specification",
+      "confidence_basis": "Dado fictício explícito da página 2; não emitido.",
+      "supporting_evidence": [],
+      "source_type": "synthetic_specification"
+    },
+    "premio": {
+      "expected_value": "R$ 135.000",
+      "status": "FOUND",
+      "source_document": "allianz_demo_policy.pdf",
+      "source_page": 2,
+      "original_source_document": null,
+      "original_source_page": null,
+      "evidence_excerpt": "Prêmio: R$ 135.000",
+      "origin": "synthetic_specification",
+      "confidence_basis": "Dado fictício explícito da página 2; não emitido.",
+      "supporting_evidence": [],
+      "source_type": "synthetic_specification"
+    },
+    "retencao_franquia": {
+      "expected_value": "R$ 250.000 (Side B)",
+      "status": "FOUND",
+      "source_document": "allianz_demo_policy.pdf",
+      "source_page": 2,
+      "original_source_document": null,
+      "original_source_page": null,
+      "evidence_excerpt": "Franquia / retenção Side B: R$ 250.000",
+      "origin": "synthetic_specification",
+      "confidence_basis": "Dado fictício explícito da página 2; não emitido.",
+      "supporting_evidence": [],
+      "source_type": "synthetic_specification"
+    },
+    "data_retroativa": {
+      "expected_value": "01/01/2018",
+      "status": "FOUND",
+      "source_document": "allianz_demo_policy.pdf",
+      "source_page": 2,
+      "original_source_document": null,
+      "original_source_page": null,
+      "evidence_excerpt": "Data limite de retroatividade: 01/01/2018",
+      "origin": "synthetic_specification",
+      "confidence_basis": "Dado fictício explícito da página 2; não emitido.",
+      "supporting_evidence": [],
+      "source_type": "synthetic_specification"
+    },
+    "side_c": {
+      "expected_value": "Não contratada neste exemplo fictício.",
+      "status": "FOUND",
+      "source_document": "allianz_demo_policy.pdf",
+      "source_page": 2,
+      "original_source_document": null,
+      "original_source_page": null,
+      "evidence_excerpt": "Side C: não contratada neste exemplo fictício.",
+      "origin": "synthetic_specification",
+      "confidence_basis": "Dado fictício explícito da página 2; não emitido.",
+      "supporting_evidence": [],
+      "source_type": "synthetic_specification"
+    },
+    "sublimites": {
+      "expected_value": "nao_localizado",
+      "status": "NOT_RETRIEVED",
+      "source_document": "allianz_demo_policy.pdf",
+      "source_page": null,
+      "evidence_excerpt": "nao_localizado",
+      "original_source_document": null,
+      "original_source_page": null,
+      "origin": "conservative_unknown",
+      "confidence_basis": "Especificação demo não define sublimites; não equivale à inexistência no contrato.",
+      "supporting_evidence": [
+        {
+          "source_document": "allianz_demo_policy.pdf",
+          "source_page": 2,
+          "original_source_document": null,
+          "original_source_page": null,
+          "evidence_excerpt": "Sublimites específicos: não definidos nesta especificação sintética.",
+          "origin": "synthetic_specification",
+          "source_type": "synthetic_specification"
+        }
+      ],
+      "source_type": null
+    },
+    "side_a": {
+      "expected_value": "Cobertura A: impossibilidade legal ou insolvência; cláusula B prevê adiantamento de perda coberta após 30 dias.",
+      "status": "FOUND",
+      "source_document": "allianz_demo_policy.pdf",
+      "source_page": 4,
+      "original_source_document": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "original_source_page": 9,
+      "evidence_excerpt": "I) COBERTURA DE PAGAMENTO AO SEGURADO – COBERTURA A A Seguradora deverá pagar em nome ou por conta do Segurado, diretamente, qualquer Perda resultante de uma Reclamação coberta pela Apólice. Essa cobertura será aplicável, exclusivamente, se o Segurado não for indenizado pelo Tomador do Seguro por tal Perda em virtude da impossibilidade legal ou situação de Insolvência Financeira da Empresa. A Franquia ou participação obrigatória do Segurado, caso estabelecida pela Seguradora, constará na Especificação da Apólice e deverá ser deduzida da Indenização a ser paga pela Seguradora.",
+      "origin": "original_wording",
+      "confidence_basis": "Leitura humana do excerto literal, limitada ao aspecto descrito; demais condições permanecem.",
+      "supporting_evidence": [
+        {
+          "source_document": "allianz_demo_policy.pdf",
+          "source_page": 4,
+          "original_source_document": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+          "original_source_page": 9,
+          "evidence_excerpt": "Na hipótese de o Tomador do Seguro não indenizar o Segurado por conta de qualquer Perda coberta pela Apólice, em até 30 (trinta) dias contados da data devida para indenização, a Seguradora deverá fazer adiantamentos para o Segurado de todas as Perdas até, conforme o caso, o Limite Máximo de Garantia ou o Limite Máximo de Indenização da Cobertura correspondente, descontada a Franquia ou Participação Obrigatória do Tomador do Seguro estabelecida na Especificação da Apólice.",
+          "origin": "original_wording",
+          "source_type": "real_wording"
+        }
+      ],
+      "source_type": "real_wording"
+    },
+    "side_b": {
+      "expected_value": "Reembolso à empresa por perda coberta paga ao segurado.",
+      "status": "FOUND",
+      "source_document": "allianz_demo_policy.pdf",
+      "source_page": 4,
+      "original_source_document": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "original_source_page": 9,
+      "evidence_excerpt": "II) COBERTURA DE REEMBOLSO DA EMPRESA – COBERTURA B A Seguradora deverá reembolsar o Tomador do Seguro por qualquer Perda resultante de uma Reclamação, à medida que o Tomador do Seguro tenha indenizado o Segurado em relação à tal Perda.",
+      "origin": "original_wording",
+      "confidence_basis": "Leitura humana do excerto literal, limitada ao aspecto descrito; demais condições permanecem.",
+      "supporting_evidence": [],
+      "source_type": "real_wording"
+    },
+    "custos_defesa": {
+      "expected_value": "Adiantamento conforme incorrido, em até 30 dias da documentação; ressarcimento nas hipóteses previstas.",
+      "status": "FOUND",
+      "source_document": "allianz_demo_policy.pdf",
+      "source_page": 20,
+      "original_source_document": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "original_source_page": 28,
+      "evidence_excerpt": "18.15. A Seguradora deve pagar os Gastos com Defesa ou Custos de Investigação para ou em nome do Segurado prontamente conforme incorrido e em caso algum o fará após 30 (trinta) dias, contados do",
+      "origin": "original_wording",
+      "confidence_basis": "Leitura humana do excerto literal, limitada ao aspecto descrito; demais condições permanecem.",
+      "supporting_evidence": [
+        {
+          "source_document": "allianz_demo_policy.pdf",
+          "source_page": 21,
+          "original_source_document": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+          "original_source_page": 29,
+          "evidence_excerpt": "recebimento da documentação prevista na Cláusula 15. Aviso de Sinistro, sem prejuízo de outras que se façam necessárias. 18.16. Caso seja aferido que os danos causados ao terceiro foram decorrentes de atos ilícitos dolosos ou derivados de Culpa Grave equiparável ao dolo, a Seguradora deverá ser ressarcida dos Gastos com Defesa ou Custos de Investigação que foram adiantados ao Segurado.",
+          "origin": "original_wording",
+          "source_type": "real_wording"
+        }
+      ],
+      "source_type": "real_wording"
+    },
+    "extensoes_cobertura": {
+      "expected_value": "Penhora online: adiantamento após 15 dias dos documentos, sujeito às condições.",
+      "status": "FOUND",
+      "source_document": "allianz_demo_policy.pdf",
+      "source_page": 5,
+      "original_source_document": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "original_source_page": 10,
+      "evidence_excerpt": "III) COBERTURA PARA INDISPONIBILIDADE DE BENS POR BLOQUEIO E PENHORA ONLINE Em caso de penhora online ou bloqueio, total ou parcial, de bens do Segurado, resultante de uma ordem judicial ou extrajudicial exarada durante o Período de Vigência da Apólice, por conta de Reclamação decorrente de Ato Danoso coberto pela Apólice, a Seguradora realizará o adiantamento do salário líquido mensal atual, ou pró-labore mensal líquido comprovado, quando não CLT, do Segurado que teve suas contas bloqueadas. O adiantamento será realizado após 15 (quinze) dias contados do recebimento dos Documentos Comprobatórios do bloqueio, por meio de depósito em conta corrente do Segurado ou de um representante que tenha sido expressamente designado pelo Segurado. O adiantamento será pago ao Segurado mensalmente pelo período de até 12 (doze) meses, exceto se estabelecido de forma diversa na Especificação da Apólice. A Seguradora realizará o adiantamento acima mencionado até que o primeiro dos seguintes eventos ocorra: a) o bloqueio dos valores em conta corrente termine; ou b) o processo em questão seja extinto, concluído ou julgado. A utilização desta cobertura se dará por ordem de comunicação à Seguradora. Na hipótese de bloqueios simultâneos de mais de um Segurado e já tendo sido reduzido o Limite Máximo de Indenização para bloqueio de conta corrente, o saldo remanescente será dividido igualitariamente entre os Segurados implicados, com adiantamentos a serem efetuados obedecendo a ordem de apresentação. Caso sejam apresentados avisos de Sinistro simultâneos, que em seu conjunto excedam ou possam exceder o Limite Máximo de Indenização referido, o critério de distribuição será o da proporcionalidade. O valor do pagamento a ser realizado pela Seguradora fica condicionado à assinatura do “Termo de",
+      "origin": "original_wording",
+      "confidence_basis": "Leitura humana do excerto literal, limitada ao aspecto descrito; demais condições permanecem.",
+      "supporting_evidence": [
+        {
+          "source_document": "allianz_demo_policy.pdf",
+          "source_page": 2,
+          "original_source_document": null,
+          "original_source_page": null,
+          "evidence_excerpt": "Extensão selecionada: Indisponibilidade de bens por bloqueio e penhora online, conforme wording.",
+          "origin": "synthetic_specification",
+          "source_type": "synthetic_specification"
+        }
+      ],
+      "source_type": "real_wording"
+    },
+    "base_cobertura": {
+      "expected_value": "À base de reclamações com notificação.",
+      "status": "FOUND",
+      "source_document": "allianz_demo_policy.pdf",
+      "source_page": 4,
+      "original_source_document": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "original_source_page": 9,
+      "evidence_excerpt": "CLÁUSULA 3. OBJETIVO DO SEGURO 3.1. O objetivo deste contrato de seguro é cobrir as Perdas resultantes de um Ato Danoso que origine uma Reclamação, desde que: a) a Reclamação seja desconhecida no momento da contratação do seguro; b) o Ato Danoso tenha ocorrido pela primeira vez durante o Período de Vigência da Apólice ou durante o Período de Retroatividade, e c) o Segurado tenha notificado fatos ou circunstâncias ocorridas durante o Período de Vigência da Apólice, ou durante o Período de Retroatividade, e o terceiro apresente a Reclamação ao Segurado durante o Período de Vigência da Apólice, ou durante o Prazo Adicional.",
+      "origin": "original_wording",
+      "confidence_basis": "Leitura humana do excerto literal, limitada ao aspecto descrito; demais condições permanecem.",
+      "supporting_evidence": [
+        {
+          "source_document": "allianz_demo_policy.pdf",
+          "source_page": 17,
+          "original_source_document": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+          "original_source_page": 24,
+          "evidence_excerpt": "14.2. Para que tal Notificação seja eficaz, a mesma deverá ser realizada por escrito, durante o Período de Vigência da Apólice, incluindo, ao menos, o que segue: a) as razões pelas quais se espera que tais circunstâncias deem origem a uma Reclamação, incluindo detalhes completos quanto à natureza e a data do possível Ato Danoso; b) a data e a maneira por meio da qual o Segurado tomou conhecimento de tais circunstâncias; e c) a identidade de qualquer potencial Segurado e reclamante. 14.3. Se, durante o Período de Vigência da Apólice, as circunstâncias forem notificadas de acordo com os requisitos desta cláusula, qualquer Reclamação posterior decorrente, baseada ou atribuível a tais fatos será aceita pela Seguradora como havendo sido feita ao mesmo tempo em que as circunstâncias foram notificadas pela primeira vez. 14.4. A Seguradora somente será responsável pelos sinistros cujo Ato Danoso tenha ocorrido durante a vigência da Apólice ou durante o período de retroatividade e que seja notificado à Seguradora durante a vigência da Apólice ou durante o Prazo Adicional eventualmente contratado, sem prejuízo das Reclamações apresentadas durante os prazos prescricionais legais.",
+          "origin": "original_wording",
+          "source_type": "real_wording"
+        }
+      ],
+      "source_type": "real_wording"
+    },
+    "periodo_estendido_notificacao": {
+      "expected_value": "60 dias automáticos salvo especificação; extensão opcional de 12 meses pagos dentro de 30 dias após término, com hipóteses e exceções.",
+      "status": "FOUND",
+      "source_document": "allianz_demo_policy.pdf",
+      "source_page": 10,
+      "original_source_document": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "original_source_page": 15,
+      "evidence_excerpt": "III) COBERTURA PARA PRAZO ADICIONAL O Segurado terá direito a um Prazo Adicional de: a) 60 (sessenta) dias, automaticamente e sem cobrança de prêmio extra, salvo se disposto em contrário na Especificação da Apólice. Este prazo será contado a partir do término do seu período de vigência. b) Quando o Cancelamento da Apólice se der por hipótese de perda de direito o prazo permanecerá de 60 (sessenta) dias. c) 12 (doze) meses, com cobrança de prêmio adicional aplicável na data de vencimento da Apólice (não se admitindo o pagamento parcial), salvo se estabelecido de forma diversa na Especificação da Apólice, contado do término do prazo previsto no subitem “a”, acima. Neste prazo extra de 12 (doze) meses, o Segurado poderá avisar os Sinistros relacionados a quaisquer reclamações, apresentadas pela primeira vez contra si, por conta de Ato Danoso ocorrido durante o Período de Vigência da Apólice ou, ainda, durante o Período de Retroatividade (se aplicável). O pagamento do prêmio respectivo deverá ser efetuado pelo Tomador do Seguro à Seguradora dentro de 30 (trinta) dias após a data de término do Período de Vigência da Apólice, nas seguintes hipóteses: a) se a Apólice não for renovada; b) se a apólice for transferida para outra Seguradora que não admita, integralmente, o Período de Retroatividade da Apólice precedente; c) se a Apólice, ao final de sua vigência, for transformada em um seguro à base de ocorrência na mesma Seguradora ou em outra; ou d) se a Apólice for extinta, contanto que a extinção não tenha ocorrido por determinação legal, por falta de pagamento do prêmio ou por esgotamento do Limite Máximo de Garantia. O Prazo Adicional previsto neste subitem “b” será contado a partir do término do prazo previsto no subitem “a”. Em caso de contratação do prazo previsto no subitem “b”, conforme os termos acima, não será possível requerer o seu cancelamento ou restituição do prêmio pago. Não haverá direito a um Prazo Adicional de um evento, conforme estabelecido na Cláusula de Mudança de Controle ou quando a Seguradora se recusar a renovar esta Apólice, devido ao não pagamento do prêmio. Embora este contrato de seguro não ofereça o direito a um Prazo Adicional, se houver uma Mudança de Controle, a Seguradora poderá, a seu exclusivo critério, fazer uma cotação para um Prazo Adicional de run-off de até 72 (setenta e dois) meses mediante solicitação por escrito do Tomador do Seguro, observando, nesta hipótese, os termos e condições que entender adequados. O Prazo Adicional não se aplica àquelas coberturas cujo pagamento de indenizações tenha esgotado o respectivo Limite Agregado ou Limite Máximo de Garantia do contrato de seguro.",
+      "origin": "original_wording",
+      "confidence_basis": "Leitura humana do excerto literal, limitada ao aspecto descrito; demais condições permanecem.",
+      "supporting_evidence": [
+        {
+          "source_document": "allianz_demo_policy.pdf",
+          "source_page": 11,
+          "original_source_document": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+          "original_source_page": 16,
+          "evidence_excerpt": "Não será concedido o prazo previsto no subitem “b”, mesmo quando contratado, para aquelas Coberturas cujo pagamento de indenizações tenha atingido o respectivo Limite Agregado ou se for atingido o Limite Máximo de Garantia da Apólice, circunstâncias que implicam na extinção da Apólice. O Prazo Adicional também se aplica às coberturas previamente contratadas e que não foram incluídas na renovação do seguro, desde que estas não tenham sido extintas por determinação legal ou por falta de pagamento do prêmio. A contratação do Prazo Adicional não acarreta, em hipótese alguma, a ampliação do Período de Vigência da Apólice.",
+          "origin": "original_wording",
+          "source_type": "real_wording"
+        },
+        {
+          "source_document": "allianz_demo_policy.pdf",
+          "source_page": 2,
+          "original_source_document": null,
+          "original_source_page": null,
+          "evidence_excerpt": "Prazo adicional: observar condições-base; extensão opcional não contratada na demo.",
+          "origin": "synthetic_specification",
+          "source_type": "synthetic_specification"
+        }
+      ],
+      "source_type": "real_wording"
+    },
+    "exclusoes": {
+      "expected_value": "Conduta: decisão final judicial/arbitral, confissão inclusive delação ou reconhecimento de órgão oficial; confirmar demais cláusulas.",
+      "status": "AMBIGUOUS",
+      "source_document": "allianz_demo_policy.pdf",
+      "source_page": 11,
+      "original_source_document": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "original_source_page": 16,
+      "evidence_excerpt": "I) CLÁUSULA DE EXCLUSÃO DE CONDUTA A SEGURADORA NÃO SERÁ RESPONSÁVEL POR QUALQUER PERDA DECORRENTE, RESULTANTE, BASEADA OU ATRIBUÍVEL ÀS VIOLAÇÕES AO DEVER DE LEALDADE, À PRÁTICA DE ATO ILÍCITO DOLOSO OU PRATICADO COM CULPA GRAVE EQUIPARÁVEL AO DOLO ATRIBUÍDOS AO SEGURADO, INCLUINDO, PORÉM NÃO SE LIMITANDO, À FRAUDE, INFRAÇÃO DOLOSA DE LEI OU NORMA, SIMULAÇÃO, LAVAGEM DE DINHEIRO, EVASÃO OU SONEGAÇÃO FISCAL, LUCRO OU VANTAGEM PESSOAL INDEVIDA, ENRIQUECIMENTO ILÍCITO, CRIME CONTRA A ORDEM TRIBUTÁRIA, EVASÃO DE DIVISAS, PECULATO, FALSIDADE IDEOLÓGICA, CONTRABANDO OU DESCAMINHO, FALSIFICAÇÃO DE DOCUMENTOS OU DE PRODUTOS, BEM COMO QUALQUER OUTRO ATO ILÍCITO DOLOSO COMETIDO OU ALEGADAMENTE COMETIDO PELO SEGURADO, PELO BENEFICIÁRIO OU POR SEU REPRESENTANTE, DE UM OU DE OUTRO. A PRESENTE CLÁUSULA SOMENTE SERÁ APLICADA MEDIANTE A APRESENTAÇÃO DE DECISÃO FINAL JUDICIAL OU ARBITRAL, CONFISSÃO DO SEGURADO, INCLUSIVE EM ACORDO DE DELAÇÃO PREMIADA, OU RECONHECIMENTO EXPRESSO DE ÓRGÃO OFICIAL ATESTANDO AS CONDUTAS MENCIONADAS ANTERIORMENTE. ESSA EXCLUSÃO SE APLICA AOS ATOS PRATICADOS PELOS SEGURADOS, E NÃO ÀS PERDAS EXPERIMENTADAS POR SEGURADOS POR ATOS PRATICADOS POR EMPREGADOS, OU PESSOAS A ESTES ASSEMELHADOS, QUE NÃO SE ENQUADREM NA DEFINIÇÃO DE SEGURADO.",
+      "origin": "original_wording",
+      "confidence_basis": "Comparação textual da cláusula de conduta. 30.1(g) menciona decisão administrativa irrecorrível; não se conclui prioridade entre cláusulas nem vantagem.",
+      "supporting_evidence": [
+        {
+          "source_document": "allianz_demo_policy.pdf",
+          "source_page": 12,
+          "original_source_document": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+          "original_source_page": 17,
+          "evidence_excerpt": "PARA FINS DE APLICAÇÃO DA EXCLUSÃO DE CONDUTA, NENHUM ATO, ERRO OU OMISSÃO DE ALGUM SEGURADO SERÁ IMPUTADO A OUTRO SEGURADO, CASO ELE NÃO TENHA PARTICIPADO ATIVAMENTE OU TENHA SIDO CONIVENTE COM O MESMO.",
+          "origin": "original_wording",
+          "source_type": "real_wording"
+        },
+        {
+          "source_document": "allianz_demo_policy.pdf",
+          "source_page": 24,
+          "original_source_document": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+          "original_source_page": 34,
+          "evidence_excerpt": "G) A RECLAMAÇÃO ESTIVER RELACIONADA OU ATRIBUÍVEL AO COMETIMENTO DE ATOS DOLOSOS OU PRATICADOS COM CULPA GRAVE EQUIPARÁVEL AO DOLO PELO SEGURADO OU POR TERCEIRO EM SEU BENEFÍCIO, SENDO QUE TAIS CONDIÇÕES DEVERÃO SER RECONHECIDAS POR SENTENÇA JUDICIAL TRANSITADA EM JULGADO, DECISÃO ARBITRAL OU ADMINISTRATIVA IRRECORRÍVEL, OU AINDA, POR CONFISSÃO PELO PRÓPRIO SEGURADO;",
+          "origin": "original_wording",
+          "source_type": "real_wording"
+        }
+      ],
+      "source_type": "real_wording"
+    },
+    "prazo_aviso_sinistro": {
+      "expected_value": "Avisar imediatamente sinistro/reclamação; observar demais condições.",
+      "status": "FOUND",
+      "source_document": "allianz_demo_policy.pdf",
+      "source_page": 19,
+      "original_source_document": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "original_source_page": 27,
+      "evidence_excerpt": "17.1.5. Nos termos da legislação vigente, o Segurado se obriga a avisar imediatamente a Seguradora, ao constatar qualquer Sinistro, ou ao receber uma ordem de autoridade competente que possa gerar as despesas previstas nesta cláusula. Além disso, o Segurado se obriga a executar tudo o que for exigido, limitando as despesas objeto desta cláusula ao que seja necessário e objetivamente adequado, para evitar a ocorrência de um Sinistro coberto por esta Apólice ou para reduzir seus efeitos.",
+      "origin": "original_wording",
+      "confidence_basis": "Leitura humana do excerto literal, limitada ao aspecto descrito; demais condições permanecem.",
+      "supporting_evidence": [
+        {
+          "source_document": "allianz_demo_policy.pdf",
+          "source_page": 27,
+          "original_source_document": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+          "original_source_page": 38,
+          "evidence_excerpt": "AVISO DE SINISTRO: comunicação específica de uma Reclamação realizada durante o período de vigência ou durante o Prazo Adicional, que o Segurado é obrigado a fazer à Seguradora com a finalidade de lhe dar conhecimento imediato de evento que entenda estar coberto, nos termos da Apólice, tão logo dele tome conhecimento.",
+          "origin": "original_wording",
+          "source_type": "real_wording"
+        }
+      ],
+      "source_type": "real_wording"
+    },
+    "controle_defesa": {
+      "expected_value": "Livre escolha; seguradora exige três propostas de honorários.",
+      "status": "FOUND",
+      "source_document": "allianz_demo_policy.pdf",
+      "source_page": 19,
+      "original_source_document": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "original_source_page": 27,
+      "evidence_excerpt": "18.4. É garantido ao Segurado a livre escolha ou a utilização de profissionais referenciados pela Seguradora para sua defesa, exceto quando a lei dispensar a nomeação. 18.4.1. A Seguradora avaliará se os valores dos Gastos com Defesa apresentados pelo Segurado são razoáveis, proporcionais e condizentes com a prática do mercado, podendo considerar como parâmetros, por exemplo, a complexidade da causa de fundo, lugar de prestação do serviço, tempo estimado de tramitação, valores pecuniários respectivos, senioridade dos profissionais desejados, contratação anterior dos mesmos profissionais, de modo razoável e proporcional. 18.4.2. A Seguradora exigirá a apresentação de 3 (três) propostas de honorários aos Segurados, a fim de examinar as referidas proporcionalidades e razoabilidade dos profissionais desejados.",
+      "origin": "original_wording",
+      "confidence_basis": "Leitura humana do excerto literal, limitada ao aspecto descrito; demais condições permanecem.",
+      "supporting_evidence": [],
+      "source_type": "real_wording"
+    },
+    "consentimento_acordo": {
+      "expected_value": "Acordo exige consentimento escrito, não negado ou atrasado sem justo motivo.",
+      "status": "FOUND",
+      "source_document": "allianz_demo_policy.pdf",
+      "source_page": 20,
+      "original_source_document": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "original_source_page": 28,
+      "evidence_excerpt": "18.13. O Segurado concorda em não resolver ou tentar resolver qualquer Reclamação ou então assumir qualquer obrigação contratual, voluntariamente realizar qualquer pagamento (salvo disposto na Cobertura para Custos de Emergência, da Cláusula 5. Extensões de Cobertura) ou admitir qualquer responsabilidade em relação a qualquer Reclamação sem o consentimento por escrito da Seguradora, esclarecendo-se que tal consentimento não deve ser negado ou atrasado sem justo motivo.",
+      "origin": "original_wording",
+      "confidence_basis": "Leitura humana do excerto literal, limitada ao aspecto descrito; demais condições permanecem.",
+      "supporting_evidence": [
+        {
+          "source_document": "allianz_demo_policy.pdf",
+          "source_page": 20,
+          "original_source_document": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+          "original_source_page": 28,
+          "evidence_excerpt": "18.6. É proibido ao Segurado fazer acordo, pagar ou adotar outras providências e/ou responsabilidades que possam influir no resultado das negociações ou litígios, bem como reconhecer sua responsabilidade ou confessar fatos, salvo se houver anuência prévia e expressa da Seguradora. 18.6.1. Em havendo acordo autorizado pela Seguradora e aceito pelo terceiro interessado, mas não anuído pelo Segurado, a Seguradora somente responderá até o limite estabelecido no referido acordo. 18.6.2. A Seguradora poderá celebrar Acordo com o terceiro prejudicado, o que não implicará o reconhecimento de responsabilidade do Segurado, nem prejudicará aqueles a quem for imputada a responsabilidade. Se houver mais de um terceiro prejudicado em um mesmo evento, a Seguradora ficará liberada de sua responsabilidade com o pagamento da totalidade das indenizações das coberturas contratadas do Seguro a um ou mais prejudicados. 18.6.3. As despesas oriundas de Acordo celebrado com o terceiro prejudicado serão deduzidas do Limite Máximo de Indenização da Apólice, não se confundindo com Limite Máximo de Indenização da Cobertura de Gastos com Defesa",
+          "origin": "original_wording",
+          "source_type": "real_wording"
+        }
+      ],
+      "source_type": "real_wording"
+    },
+    "rateio": {
+      "expected_value": "Alocação justa por acordo; sem acordo, pagamento da parcela coberta e das pessoas abrangidas.",
+      "status": "FOUND",
+      "source_document": "allianz_demo_policy.pdf",
+      "source_page": 21,
+      "original_source_document": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "original_source_page": 29,
+      "evidence_excerpt": "CLÁUSULA 21. ALOCAÇÃO 21.1. Se um Segurado incorrer em qualquer Perda que inclua tanto eventos cobertos quanto não cobertos, ou, ainda, que seja endereçada a pessoas cobertas e não cobertas, ele, o Tomador do Seguro e a Seguradora deverão utilizar os seus melhores esforços para chegar a um acordo consistente na alocação justa e adequada da proporção da Perda coberta, levando em conta as respectivas exposições jurídicas e financeiras. 21.2. Fracassada a iniciativa anterior, caberá à Seguradora efetuar o pagamento observando a parte da Reclamação coberta, bem como as pessoas abrangidas pela presente Apólice.",
+      "origin": "original_wording",
+      "confidence_basis": "Leitura humana do excerto literal, limitada ao aspecto descrito; demais condições permanecem.",
+      "supporting_evidence": [],
+      "source_type": "real_wording"
+    },
+    "jurisdicao_lei": {
+      "expected_value": "Lei brasileira; foro do segurado/beneficiário com alternativas previstas.",
+      "status": "FOUND",
+      "source_document": "allianz_demo_policy.pdf",
+      "source_page": 25,
+      "original_source_document": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "original_source_page": 36,
+      "evidence_excerpt": "CLÁUSULA 34. LEI APLICÁVEL E FORO 34.1. Qualquer questão relacionada à elaboração, validade ou funcionamento da Apólice será determinada exclusivamente no Brasil e de acordo com as leis brasileiras, se aplicando às seguradoras, resseguradoras e retrocessionárias para ações e as arbitragens promovidas entre si, em que sejam discutidos conflitos que possam interferir diretamente na execução dos contratos de seguro. 34.2. Fica estabelecido como competente para dirimir quaisquer disputas ou litígios entre o Segurado e a Seguradora, relativos a este Contrato de Seguro, o foro da cidade de domicílio do Segurado ou do beneficiário no Brasil, salvo se eles ajuizarem a ação optando por qualquer domicílio da Seguradora ou de agente dela. 34.2.1. Para o Tomador do Seguro, fica eleito, para dirimir quaisquer disputas ou litígios, o foro do domicílio de sua sede no Brasil,. 34.2.2. Na hipótese de inexistência de relação de hipossuficiência entre as partes contratantes será válida a eleição de foro diverso daquele previsto no subitem anterior. 34.3. Em qualquer hipótese, o Segurado, o beneficiário ou o Tomador do Seguro poderão optar pela resolução de controvérsias por meio de arbitragem, nos termos da Cláusula 20. Resolução de Disputas – Arbitragem, destas Condições Gerais.",
+      "origin": "original_wording",
+      "confidence_basis": "Leitura humana do excerto literal, limitada ao aspecto descrito; demais condições permanecem.",
+      "supporting_evidence": [],
+      "source_type": "real_wording"
+    },
+    "territorialidade": {
+      "expected_value": "Brasil nesta especificação sintética; wording remete à especificação.",
+      "status": "FOUND",
+      "source_document": "allianz_demo_policy.pdf",
+      "source_page": 2,
+      "original_source_document": null,
+      "original_source_page": null,
+      "evidence_excerpt": "Âmbito geográfico demo: Brasil, escolhido apenas nesta especificação sintética.",
+      "origin": "synthetic_specification",
+      "confidence_basis": "Dado fictício explícito da página 2; não emitido.",
+      "supporting_evidence": [
+        {
+          "source_document": "allianz_demo_policy.pdf",
+          "source_page": 25,
+          "original_source_document": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+          "original_source_page": 36,
+          "evidence_excerpt": "CLÁUSULA 36. ÂMBITO GEOGRAFICO DE COBERTURA 36.1. Conforme disposto na Especificação da Apólice.",
+          "origin": "original_wording",
+          "source_type": "real_wording"
+        }
+      ],
+      "source_type": "synthetic_specification"
+    },
+    "cancelamento_renovacao": {
+      "expected_value": "Cancelamento por exaustão ou acordo; neste último, retenção proporcional ao tempo decorrido.",
+      "status": "FOUND",
+      "source_document": "allianz_demo_policy.pdf",
+      "source_page": 24,
+      "original_source_document": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "original_source_page": 34,
+      "evidence_excerpt": "31.1. Além do previsto na Cláusula 30. Perda de Direitos, destas Condições Contratuais, que também implica na perda da Indenização e do prêmio pago, este contrato de seguro poderá ser resolvido, total ou parcialmente, a qualquer tempo, por acordo entre as partes contratantes, mediante concordância recíproca, hipótese em que a Seguradora reterá do prêmio recebido, além dos emolumentos, a parte proporcional ao tempo decorrido. Neste caso, o prêmio a ser devolvido será corrigido pela variação positiva do IPCA/IBGE, a partir da data do efetivo cancelamento.",
+      "origin": "original_wording",
+      "confidence_basis": "Leitura humana do excerto literal, limitada ao aspecto descrito; demais condições permanecem.",
+      "supporting_evidence": [
+        {
+          "source_document": "allianz_demo_policy.pdf",
+          "source_page": 22,
+          "original_source_document": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+          "original_source_page": 30,
+          "evidence_excerpt": "22.2. O esgotamento da importância segurada acarretará o cancelamento da Apólice, extinguindo-se quaisquer obrigações da Seguradora.",
+          "origin": "original_wording",
+          "source_type": "real_wording"
+        }
+      ],
+      "source_type": "real_wording"
+    },
+    "definicoes_relevantes": {
+      "expected_value": "Empresa: tomador, cotomadores e subsidiárias/controladas conforme especificação.",
+      "status": "AMBIGUOUS",
+      "source_document": "allianz_demo_policy.pdf",
+      "source_page": 30,
+      "original_source_document": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "original_source_page": 41,
+      "evidence_excerpt": "EMPRESA(S): o Tomador do Seguro, os co-tomador(es), conforme definido na Especificação desta Apólice, e/ou qualquer Subsidiária ou Controladas.",
+      "origin": "original_wording",
+      "confidence_basis": "Excerto parcial de definição; não conclui o conjunto de pessoas seguradas.",
+      "supporting_evidence": [],
+      "source_type": "real_wording"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "dataset_version": "demo-do-v1",
+  "demo": true,
+  "provider_http_requests": 0,
+  "warning": "DOCUMENTO DE DEMONSTRAÇÃO / DADOS FICTÍCIOS / SEM VALIDADE CONTRATUAL",
+  "assets": {
+    "porto_demo_policy.pdf": "1ee8500b9910d520ec7b1ca8ed87eb627d70233ae19fa9a5a31467c25408bb72",
+    "allianz_demo_policy.pdf": "13dccec130a0637d8ab79b79f53fdab88bab3681ca0a4a807503e7440f808be1",
+    "ground_truth_porto.json": "1df587c926c8b8f3a599f9a659a84579122936a4f754405aff2153c774973ac4",
+    "ground_truth_allianz.json": "f9a3cb7d87210254e80aefb981580a93cd1d73e3a0325586b3c100985c80eb87",
+    "ground_truth_comparison.json": "1d6c2c07a352f519be7ccd7592fa5febfed0345417018d434617a911eb9303c0",
+    "page_map_porto.json": "ea7dbabccf4fc0f3abfaf43e72906c1324cfc0a4a5797d08bfb0d29b7d7ab024",
+    "page_map_allianz.json": "0a19aae3ccd4636f61466deb35e818b106e5d7b67799260ecf631b1b9a7fdefd"
+  },
+  "documents": [
+    {
+      "key": "porto",
+      "pdf": "porto_demo_policy.pdf",
+      "ground_truth": "ground_truth_porto.json",
+      "page_map": "page_map_porto.json",
+      "pages": 30,
+      "source_file": "Apólice-PORTO_D&O_teste.pdf",
+      "source_sha256": "bf9e103a33e941e9df44a30d553e429825d66b48f658c17e3be807bec8be1145",
+      "source_pages": 52,
+      "source_version": "Fevereiro/2022; vigente a partir de 01/02/2022"
+    },
+    {
+      "key": "allianz",
+      "pdf": "allianz_demo_policy.pdf",
+      "ground_truth": "ground_truth_allianz.json",
+      "page_map": "page_map_allianz.json",
+      "pages": 33,
+      "source_file": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "source_sha256": "1778f9d09c187996e5cef8fda73a51c89ced0d0dc1772aaa4f327a9f5eb9a6cc",
+      "source_pages": 75,
+      "source_version": "Dezembro/2025"
+    }
+  ],
+  "default_reference": "porto",
+  "limits": [
+    "Especificação fictícia, não emitida e sem validade contratual.",
+    "Fontes Porto2022/Allianz2025; sem claim de atualização comercial.",
+    "Excertos selecionados não equivalem à integralidade dos produtos.",
+    "Sublimites, prazo total Porto e alcance da exclusão de conduta requerem confirmação."
+  ]
+}

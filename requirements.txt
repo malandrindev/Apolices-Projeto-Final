@@ -1,2 +1,13 @@
-# Dependências serão fixadas após os spikes de arquitetura, IA e OCR.
-# Mantenha este arquivo compatível com uma instalação limpa do projeto.
+groq==1.7.0
+python-dotenv==1.2.3
+pydantic==2.13.5
+tenacity==9.1.4
+PyMuPDF==1.28.2
+Pillow==11.3.0
+pytesseract==0.3.13
+chromadb==1.5.9
+sentence-transformers==6.1.0
+torch==2.8.0
+streamlit==1.50.0
+
+openai==3.24.0

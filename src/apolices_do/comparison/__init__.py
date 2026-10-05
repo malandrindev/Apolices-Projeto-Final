@@ -1,1 +1,0 @@
-"""Comparação rastreável de apólices."""

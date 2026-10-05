@@ -1,0 +1,81 @@
+{
+  "evidence_kind": "historical_real_execution_read_only",
+  "scope": "Dois recortes de quatro páginas de condições gerais; não apólices emitidas, nem as íntegras de 75/52 páginas.",
+  "new_provider_requests_during_final_release": 0,
+  "historical_http_requests": 37,
+  "historical_completed_requests": 37,
+  "historical_models": {
+    "gpt-5.6-terra": 24,
+    "gpt-5.6-sol": 11,
+    "gpt-5.6-luna": 2
+  },
+  "historical_tokens": {
+    "input_tokens": 110356,
+    "cached_input_tokens": 50358,
+    "output_tokens": 14021,
+    "total_tokens": 124377
+  },
+  "technical_fallbacks": 0,
+  "semantic_escalations": 11,
+  "documents": [
+    {
+      "brand": "Allianz",
+      "filename": "IM-ALLIANZ_native.pdf",
+      "document_sha256": "f6f97cb14c3cbafec358461cca55885a8cc8c85bbcd004ec071897451cb5ab15",
+      "pages": 4,
+      "extraction_methods": {
+        "native": 4
+      },
+      "field_count": 27,
+      "field_status_counts": {
+        "NOT_RETRIEVED": 12,
+        "AMBIGUOUS": 12,
+        "FOUND": 3
+      },
+      "partial": false,
+      "calls_executed": 19
+    },
+    {
+      "brand": "Porto",
+      "filename": "IM-PORTO_scan_OCR.pdf",
+      "document_sha256": "ab22ff1b58e08adc5126078b67f213aed6220e53c1a8d180a4ac8c38aac73753",
+      "pages": 4,
+      "extraction_methods": {
+        "tesseract": 4
+      },
+      "field_count": 27,
+      "field_status_counts": {
+        "AMBIGUOUS": 9,
+        "NOT_RETRIEVED": 11,
+        "FOUND": 7
+      },
+      "partial": false,
+      "calls_executed": 17
+    }
+  ],
+  "business_result": {
+    "differences": 2,
+    "equivalences": 0,
+    "insufficient_evidence": 19,
+    "global_policy_ranking": false
+  },
+  "offline_release_validation": {
+    "pytest_passed": 601,
+    "subtests_passed": 27,
+    "compileall": "PASS",
+    "imports": 10,
+    "pip_check": "PASS",
+    "edge_demo": "PASS",
+    "edge_cache": "PASS",
+    "protected_files_preserved": 660
+  },
+  "limitations": [
+    "Execução concluída não implica todos os campos recuperados corretamente.",
+    "NOT_RETRIEVED não significa ausência contratual.",
+    "Dados individuais da demo são fictícios e sem validade contratual."
+  ],
+  "provenance": {
+    "Allianz": "Condições gerais DEZ/2025, SUSEP 15414.901113/2017-96; fonte oficial referenciada no relatório.",
+    "Porto": "Condições gerais FEV/2022, SUSEP 15414.901349/2019-94; arquivo fornecido pelo usuário, sem URL de origem confirmada. Originais genéricos sem identificação de clientes mantidos para validar hashes e páginas da demo."
+  }
+}

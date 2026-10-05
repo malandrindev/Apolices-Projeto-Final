@@ -1,0 +1,499 @@
+{
+  "schema_version": 1,
+  "dataset_version": "demo-do-v1",
+  "demo": true,
+  "source_name": "porto_demo_policy.pdf",
+  "document_sha256": "1ee8500b9910d520ec7b1ca8ed87eb627d70233ae19fa9a5a31467c25408bb72",
+  "original_source_file": "Apólice-PORTO_D&O_teste.pdf",
+  "original_source_sha256": "bf9e103a33e941e9df44a30d553e429825d66b48f658c17e3be807bec8be1145",
+  "metadata": {
+    "insurer": "Porto Seguro Cia de Seguros Gerais",
+    "display_name": "PORTO SEGURO",
+    "branch": "D&O",
+    "product_name": "Demonstração acadêmica D&O",
+    "company_type": "Capital fechado",
+    "document_type": "Documento de demonstração (especificação sintética + excertos)",
+    "period": "01/01/2026 a 31/12/2026",
+    "currency": "BRL",
+    "susep_process": "15414.901349/2019-94",
+    "wording_version": "Fevereiro/2022; vigente a partir de 01/02/2022"
+  },
+  "specification": {
+    "insurer": "Porto Seguro Cia de Seguros Gerais",
+    "policy_number": "DEMO-D&O-PORTO-2026-001",
+    "insured": "ALPHA TECNOLOGIA S.A.",
+    "effective_date": "2026-01-01",
+    "expiration_date": "2026-12-31",
+    "currency": "BRL",
+    "premium": "R$ 120.000",
+    "LMG": "R$ 20.000.000",
+    "retention": "R$ 100.000",
+    "retroactive_date": "01/01/2020"
+  },
+  "synthetic_fields": [
+    "insurer",
+    "policy_number",
+    "insured",
+    "effective_date",
+    "expiration_date",
+    "currency",
+    "premium",
+    "LMG",
+    "retention",
+    "retroactive_date",
+    "selected_coverages",
+    "selected_extensions",
+    "territory"
+  ],
+  "fields": {
+    "seguradora": {
+      "expected_value": "Porto Seguro Cia de Seguros Gerais",
+      "status": "FOUND",
+      "source_document": "porto_demo_policy.pdf",
+      "source_page": 2,
+      "original_source_document": null,
+      "original_source_page": null,
+      "evidence_excerpt": "Seguradora: Porto Seguro Cia de Seguros Gerais",
+      "origin": "synthetic_specification",
+      "confidence_basis": "Dado fictício explícito da página 2; não emitido.",
+      "supporting_evidence": [],
+      "source_type": "synthetic_specification"
+    },
+    "tomador_segurado": {
+      "expected_value": "ALPHA TECNOLOGIA S.A.",
+      "status": "FOUND",
+      "source_document": "porto_demo_policy.pdf",
+      "source_page": 2,
+      "original_source_document": null,
+      "original_source_page": null,
+      "evidence_excerpt": "Tomador: ALPHA TECNOLOGIA S.A.",
+      "origin": "synthetic_specification",
+      "confidence_basis": "Dado fictício explícito da página 2; não emitido.",
+      "supporting_evidence": [],
+      "source_type": "synthetic_specification"
+    },
+    "numero_apolice": {
+      "expected_value": "DEMO-D&O-PORTO-2026-001",
+      "status": "FOUND",
+      "source_document": "porto_demo_policy.pdf",
+      "source_page": 2,
+      "original_source_document": null,
+      "original_source_page": null,
+      "evidence_excerpt": "Número da apólice demo: DEMO-D&O-PORTO-2026-001",
+      "origin": "synthetic_specification",
+      "confidence_basis": "Dado fictício explícito da página 2; não emitido.",
+      "supporting_evidence": [],
+      "source_type": "synthetic_specification"
+    },
+    "vigencia_inicio": {
+      "expected_value": "01/01/2026",
+      "status": "FOUND",
+      "source_document": "porto_demo_policy.pdf",
+      "source_page": 2,
+      "original_source_document": null,
+      "original_source_page": null,
+      "evidence_excerpt": "Início da vigência: 01/01/2026",
+      "origin": "synthetic_specification",
+      "confidence_basis": "Dado fictício explícito da página 2; não emitido.",
+      "supporting_evidence": [],
+      "source_type": "synthetic_specification"
+    },
+    "vigencia_fim": {
+      "expected_value": "31/12/2026",
+      "status": "FOUND",
+      "source_document": "porto_demo_policy.pdf",
+      "source_page": 2,
+      "original_source_document": null,
+      "original_source_page": null,
+      "evidence_excerpt": "Fim da vigência: 31/12/2026",
+      "origin": "synthetic_specification",
+      "confidence_basis": "Dado fictício explícito da página 2; não emitido.",
+      "supporting_evidence": [],
+      "source_type": "synthetic_specification"
+    },
+    "moeda": {
+      "expected_value": "BRL",
+      "status": "FOUND",
+      "source_document": "porto_demo_policy.pdf",
+      "source_page": 2,
+      "original_source_document": null,
+      "original_source_page": null,
+      "evidence_excerpt": "Moeda: BRL",
+      "origin": "synthetic_specification",
+      "confidence_basis": "Dado fictício explícito da página 2; não emitido.",
+      "supporting_evidence": [],
+      "source_type": "synthetic_specification"
+    },
+    "limite_maximo_garantia": {
+      "expected_value": "R$ 20.000.000",
+      "status": "FOUND",
+      "source_document": "porto_demo_policy.pdf",
+      "source_page": 2,
+      "original_source_document": null,
+      "original_source_page": null,
+      "evidence_excerpt": "Limite Máximo de Garantia (LMG): R$ 20.000.000",
+      "origin": "synthetic_specification",
+      "confidence_basis": "Dado fictício explícito da página 2; não emitido.",
+      "supporting_evidence": [],
+      "source_type": "synthetic_specification"
+    },
+    "premio": {
+      "expected_value": "R$ 120.000",
+      "status": "FOUND",
+      "source_document": "porto_demo_policy.pdf",
+      "source_page": 2,
+      "original_source_document": null,
+      "original_source_page": null,
+      "evidence_excerpt": "Prêmio: R$ 120.000",
+      "origin": "synthetic_specification",
+      "confidence_basis": "Dado fictício explícito da página 2; não emitido.",
+      "supporting_evidence": [],
+      "source_type": "synthetic_specification"
+    },
+    "retencao_franquia": {
+      "expected_value": "R$ 100.000 (Side B)",
+      "status": "FOUND",
+      "source_document": "porto_demo_policy.pdf",
+      "source_page": 2,
+      "original_source_document": null,
+      "original_source_page": null,
+      "evidence_excerpt": "Franquia / retenção Side B: R$ 100.000",
+      "origin": "synthetic_specification",
+      "confidence_basis": "Dado fictício explícito da página 2; não emitido.",
+      "supporting_evidence": [],
+      "source_type": "synthetic_specification"
+    },
+    "data_retroativa": {
+      "expected_value": "01/01/2020",
+      "status": "FOUND",
+      "source_document": "porto_demo_policy.pdf",
+      "source_page": 2,
+      "original_source_document": null,
+      "original_source_page": null,
+      "evidence_excerpt": "Data limite de retroatividade: 01/01/2020",
+      "origin": "synthetic_specification",
+      "confidence_basis": "Dado fictício explícito da página 2; não emitido.",
+      "supporting_evidence": [],
+      "source_type": "synthetic_specification"
+    },
+    "side_c": {
+      "expected_value": "Não contratada neste exemplo fictício.",
+      "status": "FOUND",
+      "source_document": "porto_demo_policy.pdf",
+      "source_page": 2,
+      "original_source_document": null,
+      "original_source_page": null,
+      "evidence_excerpt": "Side C: não contratada neste exemplo fictício.",
+      "origin": "synthetic_specification",
+      "confidence_basis": "Dado fictício explícito da página 2; não emitido.",
+      "supporting_evidence": [],
+      "source_type": "synthetic_specification"
+    },
+    "sublimites": {
+      "expected_value": "nao_localizado",
+      "status": "NOT_RETRIEVED",
+      "source_document": "porto_demo_policy.pdf",
+      "source_page": null,
+      "evidence_excerpt": "nao_localizado",
+      "original_source_document": null,
+      "original_source_page": null,
+      "origin": "conservative_unknown",
+      "confidence_basis": "Especificação demo não define sublimites; não equivale à inexistência no contrato.",
+      "supporting_evidence": [
+        {
+          "source_document": "porto_demo_policy.pdf",
+          "source_page": 2,
+          "original_source_document": null,
+          "original_source_page": null,
+          "evidence_excerpt": "Sublimites específicos: não definidos nesta especificação sintética.",
+          "origin": "synthetic_specification",
+          "source_type": "synthetic_specification"
+        }
+      ],
+      "source_type": null
+    },
+    "side_a": {
+      "expected_value": "Garantia A: pagamento ao segurado não indenizado pela sociedade, observadas condições.",
+      "status": "FOUND",
+      "source_document": "porto_demo_policy.pdf",
+      "source_page": 26,
+      "original_source_document": "Apólice-PORTO_D&O_teste.pdf",
+      "original_source_page": 32,
+      "evidence_excerpt": "Garantia A - Segurados a) A Seguradora pagará as Perdas Indenizáveis de cada Segurado sempre que tal Segurado não tenha sido indenizada pela Sociedade por tal Perda Indenizável; b) A Seguradora pagará as Perdas Indenizáveis de um Diretor de Entidade Externa sempre que tal Diretor de Entidade Externa não tenha sido indenizado pela Sociedade por tal Perda Indenizável.",
+      "origin": "original_wording",
+      "confidence_basis": "Leitura humana do excerto literal, limitada ao aspecto descrito; demais condições permanecem.",
+      "supporting_evidence": [
+        {
+          "source_document": "porto_demo_policy.pdf",
+          "source_page": 15,
+          "original_source_document": "Apólice-PORTO_D&O_teste.pdf",
+          "original_source_page": 16,
+          "evidence_excerpt": "Com relação à Garantia A e às Extensões de Cobertura, na hipótese de que uma Sociedade seja legalmente capaz de indenizar um Segurado, mas não o fizer dentro de um período de 30 (trinta) dias, a Seguradora deverá fazer adiantamentos para o Segurado de todas as Perdas Indenizáveis até o limite de indenização por cobertura. Nesse caso, uma Franquia ou Participação Obrigatória igual à prevista na Garantia B deverá ser paga pela Sociedade à Seguradora, exceto na hipótese de que haja uma proibição legal ou de a Sociedade estar insolvente.",
+          "origin": "original_wording",
+          "source_type": "real_wording"
+        }
+      ],
+      "source_type": "real_wording"
+    },
+    "side_b": {
+      "expected_value": "Reembolso à empresa por perda coberta paga ao segurado.",
+      "status": "FOUND",
+      "source_document": "porto_demo_policy.pdf",
+      "source_page": 26,
+      "original_source_document": "Apólice-PORTO_D&O_teste.pdf",
+      "original_source_page": 32,
+      "evidence_excerpt": "Garantia B - Reembolso à Sociedade Se uma Sociedade efetuar o pagamento de uma Perda Indenizável de um Segurado coberta pela Apólice, a Seguradora reembolsará a Sociedade por tal Perda Indenizável.",
+      "origin": "original_wording",
+      "confidence_basis": "Leitura humana do excerto literal, limitada ao aspecto descrito; demais condições permanecem.",
+      "supporting_evidence": [],
+      "source_type": "real_wording"
+    },
+    "custos_defesa": {
+      "expected_value": "Adiantamento antes da decisão final; ressarcimento se valores indevidos.",
+      "status": "FOUND",
+      "source_document": "porto_demo_policy.pdf",
+      "source_page": 17,
+      "original_source_document": "Apólice-PORTO_D&O_teste.pdf",
+      "original_source_page": 18,
+      "evidence_excerpt": "6.6 Adiantamentos de Custos De Defesa A Seguradora adiantará ao Segurado, antes da decisão final acerca da procedência da Reclamação, os Custos De Defesa, Custos de Investigação, quando contratada Extensão de Cobertura para Custos de Investigação e conforme definição nela contida, ou todos os outros custos cobertos relativos a todas as coberturas abrangidas por esta Apólice. Os pagamentos de adiantamento feitos pela Seguradora serão reembolsados à esta pela Sociedade ou pelo Segurado, separadamente, em conformidade com suas respectivas responsabilidades no caso, à medida que a Sociedade, ou o Segurado, não tenha direito ao pagamento das Perdas Indenizáveis sob os termos e condições desta Apólice.",
+      "origin": "original_wording",
+      "confidence_basis": "Leitura humana do excerto literal, limitada ao aspecto descrito; demais condições permanecem.",
+      "supporting_evidence": [
+        {
+          "source_document": "porto_demo_policy.pdf",
+          "source_page": 6,
+          "original_source_document": "Apólice-PORTO_D&O_teste.pdf",
+          "original_source_page": 7,
+          "evidence_excerpt": "2.11 Custos De Defesa Emolumentos, honorários advocatícios e periciais, custas judiciais e despesas necessárias incorridas ou de outros meios de solução de conflitos, com o prévio consentimento por escrito da Seguradora decorrentes exclusivamente de uma investigação, defesa ou recurso, por ou em nome de um Segurado, relacionados a uma Reclamação. Inclui-se também na presente definição o custo para interposição de recurso quando da aplicação de multas e penalidades pecuniárias e não pecuniárias contra um Segurado. É garantida ao Segurado a livre escolha ou a utilização de profissionais referenciados para sua defesa. É garantido à Seguradora o direito de ressarcimento por valores adiantados ao segurado, quando restar comprovado que os danos causados a terceiros tenham decorrido de atos ilícitos dolosos. Não integram os Custos De Defesa os valores relativos à remuneração ou qualquer outro benefício de qualquer Segurado ou de empregados de uma Sociedade, nem os custos e despesas gerais e usuais de qualquer Sociedade, bem como os Custos de Investigação, cobertos via Extensão de Cobertura para Custos de Investigação, se contratada e conforme definição nela contida. Os Custos de Defesa não incluem, os emolumentos, os honorários advocatícios, as custas judiciais e despesas incorridas ou outros meios de solução de conflitos, anteriores ao período em que uma questão se transforma em uma Reclamação. Caso contratada a Extensão de Cobertura de Responsabilidade Tributária ou Extensão de Cobertura de Multas e Penalidades, os Custos De Defesa para Reclamações desta natureza acompanharão o valor do Limite Máximo de Indenização por Cobertura Contratada contratado para tal a Extensão de Cobertura, respeitado em qualquer circunstância o Limite Máximo de Garantia da Apólice.",
+          "origin": "original_wording",
+          "source_type": "real_wording"
+        }
+      ],
+      "source_type": "real_wording"
+    },
+    "extensoes_cobertura": {
+      "expected_value": "Penhora on-line: adiantamento após 20 dias dos documentos, sujeito às condições.",
+      "status": "FOUND",
+      "source_document": "porto_demo_policy.pdf",
+      "source_page": 27,
+      "original_source_document": "Apólice-PORTO_D&O_teste.pdf",
+      "original_source_page": 33,
+      "evidence_excerpt": "EXTENSÃO DE COBERTURA PARA BLOQUEIO E INDISPONIBILIDADE DE BENS Contratada esta extensão de cobertura, sujeito ao Limite Máximo de Indenização por Cobertura Contratada estabelecido na Especificação da Apólice: (i) em caso de bloqueio por meio do sistema BACEN-JUD (Penhora on-line) das contas bancárias pessoais do Segurado resultante de uma Ordem Judicial exarada durante o Período de Vigência da Apólice em razão de um Ato Danoso, a Seguradora, depois de aguardar um período de 20 (vinte) dias do recebimento dos Documentos Comprobatórios do Bloqueio, para cada Segurado, por meio de um representante legal expressamente designado pelo Segurado, fará um adiantamento, a ser posteriormente devolvido pelo Segurado, das suas despesas mensais que não possam ser honradas em razão do bloqueio, limitado ao seu salário liquido mensal; ou (ii) em caso de bloqueio, parcial ou total, de bens pessoais (outros que não contas bancárias ou demais ativos que podem ser bloqueados através do sistema BACEN-JUD, conforme descrito no item (i) acima) do Segurado resultante de uma Ordem Judicial ou Administrativa emanada durante a Período de Vigência da Apólice, a Seguradora pagará, depois",
+      "origin": "original_wording",
+      "confidence_basis": "Leitura humana do excerto literal, limitada ao aspecto descrito; demais condições permanecem.",
+      "supporting_evidence": [
+        {
+          "source_document": "porto_demo_policy.pdf",
+          "source_page": 2,
+          "original_source_document": null,
+          "original_source_page": null,
+          "evidence_excerpt": "Extensão selecionada: Bloqueio e indisponibilidade de bens (penhora on-line), conforme wording.",
+          "origin": "synthetic_specification",
+          "source_type": "synthetic_specification"
+        },
+        {
+          "source_document": "porto_demo_policy.pdf",
+          "source_page": 28,
+          "original_source_document": "Apólice-PORTO_D&O_teste.pdf",
+          "original_source_page": 34,
+          "evidence_excerpt": "O pagamento será interrompido tão logo cesse a medida que determinou o bloqueio de bens, pela extinção, conclusão ou julgamento do processo em questão, quando houver; se a duração da medida tiver excedido um período de 12 (doze) meses, ou se os valores adiantados atingirem o montante bloqueado. A Seguradora ficará igualmente desobrigada com relação a qualquer pagamento quando os pagamentos efetuados excederem ao Limite Máximo de Indenização por Cobertura Contratada constante na Especificação da Apólice. O Limite Máximo de Indenização por Cobertura Contratada para a presente Extensão de Garantia mencionada na Especificação da Apólice será dividido de forma igualitária por todos os Segurados. A concessão da garantia (limite por Segurado) se dará por ordem de comunicação dos Segurados até o esgotamento do Limite Máximo de Indenização por Cobertura Contratada. Na hipótese de bloqueios simultâneos e já tendo sido reduzido o Limite Máximo de Indenização por Cobertura Contratada devido ao uso parcial da garantia prevista nesta Apólice, o saldo do Limite Máximo de Indenização por Cobertura Contratada remanescente na oportunidade será dividido igualmente entre os Segurados reclamantes. O Segurado reembolsará a Seguradora por quaisquer pagamentos adiantados por intermédio desta Extensão de Garantia em até 30 (trinta) dias depois do desbloqueio das contas bancárias, exceto quando o Segurado, ao final do processo, tenha que pagar uma indenização por condenação judicial e que esta condenação seja coberta por esta Apólice. Neste caso, o valor adiantado pela presente Extensão de Garantia será deduzido da indenização a ser paga.",
+          "origin": "original_wording",
+          "source_type": "real_wording"
+        }
+      ],
+      "source_type": "real_wording"
+    },
+    "base_cobertura": {
+      "expected_value": "À base de reclamações com notificação.",
+      "status": "FOUND",
+      "source_document": "porto_demo_policy.pdf",
+      "source_page": 3,
+      "original_source_document": "Apólice-PORTO_D&O_teste.pdf",
+      "original_source_page": 4,
+      "evidence_excerpt": "Mediante o pagamento do Prêmio e sujeito ao disposto nesta Apólice, observadas as Declarações do Segurado, a Seguradora e o Tomador acordam na forma do estabelecido nesta Apólice à Base de Reclamações com Notificação.",
+      "origin": "original_wording",
+      "confidence_basis": "Leitura humana do excerto literal, limitada ao aspecto descrito; demais condições permanecem.",
+      "supporting_evidence": [],
+      "source_type": "real_wording"
+    },
+    "periodo_estendido_notificacao": {
+      "expected_value": "Prazo-base depende da especificação; extensão opcional de 12 meses, sujeita a aceitação e pagamento até 30 dias antes do fim da vigência.",
+      "status": "AMBIGUOUS",
+      "source_document": "porto_demo_policy.pdf",
+      "source_page": 24,
+      "original_source_document": "Apólice-PORTO_D&O_teste.pdf",
+      "original_source_page": 30,
+      "evidence_excerpt": "A extensão do Prazo Adicional é válida desde que o Segurado exerça o direito de contratação e efetue o pagamento do Prêmio adicional referido na Especificação da Apólice dentro de até 30 (trinta) dias antes do final de vigência da Apólice, estando a contratação da extensão do referido Prazo Adicional condicionada à prévia e expressa análise e aceitação da Seguradora. Cabe ao Segurado optar pela contratação ou não da extensão do Prazo Adicional, uma única vez, pagando o prêmio adicional correspondente. Não será admitido a contratação de uma segunda extensão do Prazo Adicional e nem mesmo prazo superior a 12 meses.",
+      "origin": "original_wording",
+      "confidence_basis": "Prazo-base não definido na demo. Extensão prevista no wording, não contratada; sem prazo total seguro.",
+      "supporting_evidence": [
+        {
+          "source_document": "porto_demo_policy.pdf",
+          "source_page": 23,
+          "original_source_document": "Apólice-PORTO_D&O_teste.pdf",
+          "original_source_page": 29,
+          "evidence_excerpt": "8.20 Prazo Adicional O prazo adicional indicado na Especificação da Apólice, a partir do cancelamento da Apólice ou do término do Período de Vigência da Apólice, durante o qual terceiros podem apresentar ao Segurado uma Reclamação por um Ato Danoso ou Fato Gerador que tenha ocorrido durante o Período de Vigência ou, exceto quanto ao subitem (iv) abaixo, do Período de Retroatividade, nas seguintes hipóteses: (i) se a Apólice não for renovada e não for substituída por outra apólice; (ii) se a Apólice for transferida para outra seguradora que não admita integralmente o Período de Retroatividade da Apólice precedente; (iii) se a Apólice for substituída por uma Apólice à base de Ocorrência ao final do Período de Vigência na mesma sociedade seguradora ou em outra; ou (iv) se a Apólice for cancelada, desde que o cancelamento não tenha ocorrido por determinação legal, por falta de pagamento do Prêmio ou pelo fato de as indenizações por Perda Indenizável terem exaurido o Limite Máximo de Garantia da Apólice. Em derrogação ao que está indicado na Especificação da Apólice, em caso de renovação da Apólice, ou de sucessivas renovações, se aplica um Prazo Adicional de apenas um ano às coberturas previamente contratadas e que não foram incluídas na renovação da Apólice, desde que estas não tenham sido canceladas por determinação legal ou por falta de pagamento do Prêmio. O Prazo Adicional concedido não se aplica àquelas coberturas cujo pagamento de indenizações tenha atingido o respectivo Limite Agregado. As disposições desta cláusula não alteram o Período de Vigência da Apólice, aplicando-se apenas às Reclamações por Atos Danosos que tenham ocorrido em data anterior ao término do Período de Vigência ou do cancelamento. 8.21 Extensão do Prazo Adicional É facultado à Seguradora e de contratação opcional por parte do Segurado, a concessão da extensão do Prazo Adicional pelo período de 12 meses a contar do término do Prazo Adicional, durante o qual o Segurado pode, mediante o pagamento de um Prêmio adicional, apresentar um Aviso de Sinistro à Seguradora.",
+          "origin": "original_wording",
+          "source_type": "real_wording"
+        },
+        {
+          "source_document": "porto_demo_policy.pdf",
+          "source_page": 2,
+          "original_source_document": null,
+          "original_source_page": null,
+          "evidence_excerpt": "Prazo adicional: observar condições-base; extensão opcional não contratada na demo.",
+          "origin": "synthetic_specification",
+          "source_type": "synthetic_specification"
+        }
+      ],
+      "source_type": "real_wording"
+    },
+    "exclusoes": {
+      "expected_value": "Conduta: decisão final judicial/arbitral ou administrativa sem recurso nessa esfera, ou admissão por escrito; não imputação entre segurados.",
+      "status": "FOUND",
+      "source_document": "porto_demo_policy.pdf",
+      "source_page": 12,
+      "original_source_document": "Apólice-PORTO_D&O_teste.pdf",
+      "original_source_page": 13,
+      "evidence_excerpt": "Para fins de aplicação da Exclusão Conduta, nenhum ato, erro ou omissão de qualquer Segurado será imputado a qualquer outro Segurado. Os itens (i) e (ii) acima somente serão aplicados no caso de que qualquer dos atos acima descritos sejam reconhecidos como tal por decisão final judicial ou arbitral ou decisão administrativa da qual não caiba mais recurso nessa esfera, ou ainda admitido por escrito pelo Segurado.",
+      "origin": "original_wording",
+      "confidence_basis": "Leitura humana do excerto literal, limitada ao aspecto descrito; demais condições permanecem.",
+      "supporting_evidence": [],
+      "source_type": "real_wording"
+    },
+    "prazo_aviso_sinistro": {
+      "expected_value": "Comunicar reclamação o mais rápido possível; observar demais condições.",
+      "status": "FOUND",
+      "source_document": "porto_demo_policy.pdf",
+      "source_page": 22,
+      "original_source_document": "Apólice-PORTO_D&O_teste.pdf",
+      "original_source_page": 28,
+      "evidence_excerpt": "8.12 Cooperação Como condição às obrigações da Seguradora, o Segurado deverá, a seu próprio custo: a) fornecer à Seguradora todos os detalhes de um Aviso de Sinistro ou Notificação o mais rápido possível anexando os documentos relevantes; e b) auxiliar e cooperar com a Seguradora nas investigações, defesas, acordos ou recursos relacionados ao Aviso de Sinistro ou Notificação. Na ocorrência de uma Reclamação, cada Segurado deverá tomar medidas que visem mitigar as Perdas Indenizáveis.",
+      "origin": "original_wording",
+      "confidence_basis": "Leitura humana do excerto literal, limitada ao aspecto descrito; demais condições permanecem.",
+      "supporting_evidence": [],
+      "source_type": "real_wording"
+    },
+    "controle_defesa": {
+      "expected_value": "Livre escolha; segurado se defende; seguradora pode participar; advogados separados em conflito.",
+      "status": "FOUND",
+      "source_document": "porto_demo_policy.pdf",
+      "source_page": 16,
+      "original_source_document": "Apólice-PORTO_D&O_teste.pdf",
+      "original_source_page": 17,
+      "evidence_excerpt": "6.4 Defesa e Acordos Referentes a Reclamações Cada Segurado deverá contestar e se defender de qualquer Reclamação apresentada contra ele. Embora não figure na ação, a Seguradora terá o direito de participar ativamente em tal defesa na qualidade de assistente e na negociação de um acordo caso envolva ou possa envolver o Segurado ou Sociedade. A Seguradora aceitará como razoável e necessária a contratação de advogados distintos, se isso for necessário devido a um conflito material de interesses entre quaisquer Segurados.",
+      "origin": "original_wording",
+      "confidence_basis": "Leitura humana do excerto literal, limitada ao aspecto descrito; demais condições permanecem.",
+      "supporting_evidence": [
+        {
+          "source_document": "porto_demo_policy.pdf",
+          "source_page": 6,
+          "original_source_document": "Apólice-PORTO_D&O_teste.pdf",
+          "original_source_page": 7,
+          "evidence_excerpt": "É garantida ao Segurado a livre escolha ou a utilização de profissionais referenciados para sua defesa.",
+          "origin": "original_wording",
+          "source_type": "real_wording"
+        }
+      ],
+      "source_type": "real_wording"
+    },
+    "consentimento_acordo": {
+      "expected_value": "Acordo ou confissão dependem de consentimento prévio e expresso.",
+      "status": "FOUND",
+      "source_document": "porto_demo_policy.pdf",
+      "source_page": 17,
+      "original_source_document": "Apólice-PORTO_D&O_teste.pdf",
+      "original_source_page": 18,
+      "evidence_excerpt": "6.7 Consentimento Nenhum Segurado poderá admitir ou assumir responsabilidade, celebrar acordo ou transação ou fazer confissão em juízo sem o prévio e expresso consentimento da Seguradora. Somente condenações ou decisões de juízo arbitral resultantes de demandas defendidas na forma do disposto nesta Apólice estarão sujeitas a recuperação como Perda Indenizável por força desta Apólice. Se um Segurado se comprometer ou transigir em qualquer Reclamação, ou Reclamação em potencial, sem o prévio consentimento expresso da Seguradora, de forma a limitar ou impossibilitar a indenização ou recurso contra tal Segurado ou de ativos detidos ou possuídos por tal Segurado, e que efetivamente possibilite ao demandante, efetivo ou em potencial, o acionamento desta Apólice ou da Seguradora; esta Apólice não estenderá cobertura com relação à Reclamação, seja ela efetiva ou potencial.",
+      "origin": "original_wording",
+      "confidence_basis": "Leitura humana do excerto literal, limitada ao aspecto descrito; demais condições permanecem.",
+      "supporting_evidence": [],
+      "source_type": "real_wording"
+    },
+    "rateio": {
+      "expected_value": "Pagamento restrito à parcela da reclamação coberta; observar regras de alocação.",
+      "status": "FOUND",
+      "source_document": "porto_demo_policy.pdf",
+      "source_page": 17,
+      "original_source_document": "Apólice-PORTO_D&O_teste.pdf",
+      "original_source_page": 18,
+      "evidence_excerpt": "6.8 Alocação A Seguradora só será responsável por pagar os Custos De Defesa ou Perdas Indenizáveis resultantes exclusivamente de uma Reclamação apresentada contra um Segurado que esteja coberta. De mesmo modo, com relação a: (i) Custos De Defesa solidariamente incorridos por; (ii) acordos coobrigados por; e/ou (iii) condenações ou decisão de juízo arbitral gerando responsabilidade solidária e independente para uma Sociedade e um Segurado com relação a uma Reclamação, tal Segurado e a Seguradora concordam em envidar seus melhores esforços para determinar uma alocação justa e correta de valores entre a Sociedade, o Segurado e a Seguradora, considerando as correspondentes obrigações legais e financeiras e os benefícios relativos auferidos por tal Segurado e pela Sociedade. Na eventualidade de alguma Reclamação envolver matérias cobertas e matérias ou pessoas não-cobertas por esta Apólice, a justa e correta alocação de quaisquer Custos De Defesa, condenações, acordos ou decisão de juízo arbitral feito entre a Sociedade, o Segurado e a Seguradora levando-se em conta as relativas exposições e benefícios legais e financeiros atribuídos às matérias cobertas e às matérias e pessoas não-cobertas por esta Apólice. A Seguradora deverá pagar os Custos De Defesa que excederem o valor da Franquia, se houver, que estiverem cobertos por esta Apólice imediatamente após o recebimento de faturas ou notas de cobrança suficientemente detalhadas a respeito de tais custos pela Seguradora. O Tomador deverá indenizar a Seguradora por quaisquer pagamentos que se determine não estarem cobertos por esta Apólice. A Seguradora não terá obrigação por esta Apólice com relação aos Custos De Defesa incorridos por condenações, acordos ou decisão de juízo arbitral feitos pela Sociedade resultantes de Reclamações diferentes das aqui cobertas, e nem obrigação de indenizar Perdas Indenizáveis resultantes de qualquer responsabilidade legal que",
+      "origin": "original_wording",
+      "confidence_basis": "Leitura humana do excerto literal, limitada ao aspecto descrito; demais condições permanecem.",
+      "supporting_evidence": [],
+      "source_type": "real_wording"
+    },
+    "jurisdicao_lei": {
+      "expected_value": "Lei brasileira; foro do domicílio do tomador.",
+      "status": "FOUND",
+      "source_document": "porto_demo_policy.pdf",
+      "source_page": 25,
+      "original_source_document": "Apólice-PORTO_D&O_teste.pdf",
+      "original_source_page": 31,
+      "evidence_excerpt": "8.27 Foro O Juízo da cidade de domicílio do Tomador será competente para analisar e julgar qualquer disputa resultante desta Apólice.",
+      "origin": "original_wording",
+      "confidence_basis": "Leitura humana do excerto literal, limitada ao aspecto descrito; demais condições permanecem.",
+      "supporting_evidence": [
+        {
+          "source_document": "porto_demo_policy.pdf",
+          "source_page": 23,
+          "original_source_document": "Apólice-PORTO_D&O_teste.pdf",
+          "original_source_page": 29,
+          "evidence_excerpt": "8.19 Interpretação da Apólice Qualquer interpretação desta Apólice ou questão relacionada à sua construção, validade ou operação deverá ser determinada pelas leis do Brasil. Qualquer aditivo a esta Apólice somente será válido se feito por escrito. Nas Condições Contratuais seguirá a seguinte interpretação: (i) títulos das seções são apenas descritivos, e não uma ajuda de interpretação; (ii) singular inclui o plural, e vice-versa; (iii) o masculino inclui o feminino e gênero neutro; (iv) todas as referências a uma legislação específica inclui suas alterações, aditivos e reedições e normas correlatas de qualquer jurisdição na qual a Reclamação seja feita; e (v) referências a posições, cargos ou títulos deverão incluir seus equivalentes em qualquer jurisdição na qual a Reclamação seja feita.",
+          "origin": "original_wording",
+          "source_type": "real_wording"
+        }
+      ],
+      "source_type": "real_wording"
+    },
+    "territorialidade": {
+      "expected_value": "Mundial, legalmente permitido e sujeito a limites e restrições.",
+      "status": "FOUND",
+      "source_document": "porto_demo_policy.pdf",
+      "source_page": 16,
+      "original_source_document": "Apólice-PORTO_D&O_teste.pdf",
+      "original_source_page": 17,
+      "evidence_excerpt": "6.1 Âmbito Geográfico Na medida legalmente permitida, esta Apólice cobrirá qualquer Reclamação realizada contra um Segurado em qualquer lugar do mundo, observados os limites e restrições previstos nessa Apólice.",
+      "origin": "original_wording",
+      "confidence_basis": "Leitura humana do excerto literal, limitada ao aspecto descrito; demais condições permanecem.",
+      "supporting_evidence": [
+        {
+          "source_document": "porto_demo_policy.pdf",
+          "source_page": 2,
+          "original_source_document": null,
+          "original_source_page": null,
+          "evidence_excerpt": "Âmbito geográfico demo: Mundial, na medida legalmente permitida, observadas restrições do wording.",
+          "origin": "synthetic_specification",
+          "source_type": "synthetic_specification"
+        }
+      ],
+      "source_type": "real_wording"
+    },
+    "cancelamento_renovacao": {
+      "expected_value": "Cancelamento por exaustão do LMG ou acordo; a pedido do tomador, devolução conforme Tabela de Prazo Curto.",
+      "status": "FOUND",
+      "source_document": "porto_demo_policy.pdf",
+      "source_page": 21,
+      "original_source_document": "Apólice-PORTO_D&O_teste.pdf",
+      "original_source_page": 23,
+      "evidence_excerpt": "8.5 Cancelamento O presente contrato de seguro será cancelado: (i) quando a indenização ou a soma das indenizações pagas atingirem o Limite Máximo de Garantia da Apólice, não tendo o Tomador direito a qualquer restituição de Prêmio; ou (ii) total ou parcialmente, a qualquer tempo, mediante acordo entre as partes contratantes: a) se a pedido do Tomador, a Seguradora retiver, no máximo, além dos emolumentos, o Prêmio calculado de acordo com a Tabela de Prazo Curto contida na cláusula Pagamento do Prêmio. Para prazos não previstos na tabela será utilizado o percentual correspondente ao prazo imediatamente inferior. Neste caso, o Prêmio a ser devolvido, será corrigido pelo índice IPCA/IBGE, a partir da data de recebimento da solicitação de cancelamento; ou b) se por iniciativa da Seguradora, esta retiver do Prêmio recebido, além dos emolumentos, a parte proporcional ao tempo decorrido. Neste caso, o Prêmio a ser devolvido, será corrigido pelo índice IPCA/IBGE, a partir da data do efetivo cancelamento. O cancelamento desta Apólice não extingue qualquer garantia conferida pelas Extensões Prazo Adicional Perpétuo para Aposentados e Prazo Adicional Perpétuo para Demissões Voluntárias. (iii) se ocorrer alguma das hipóteses previstas como Perda de Direitos, sem devolução de prêmio.",
+      "origin": "original_wording",
+      "confidence_basis": "Leitura humana do excerto literal, limitada ao aspecto descrito; demais condições permanecem.",
+      "supporting_evidence": [],
+      "source_type": "real_wording"
+    },
+    "definicoes_relevantes": {
+      "expected_value": "Diretor: administradores responsáveis por decisões que impactam a entidade.",
+      "status": "AMBIGUOUS",
+      "source_document": "porto_demo_policy.pdf",
+      "source_page": 7,
+      "original_source_document": "Apólice-PORTO_D&O_teste.pdf",
+      "original_source_page": 8,
+      "evidence_excerpt": "2.18 Diretor Diretores estatutários e as pessoas físicas que ocupam cargos de administração de uma entidade e sejam responsáveis pela tomada de decisões que impactem a situação administrativa, financeira, operacional ou jurídica de tal entidade.",
+      "origin": "original_wording",
+      "confidence_basis": "Excerto parcial de definição; não conclui o conjunto de pessoas seguradas.",
+      "supporting_evidence": [],
+      "source_type": "real_wording"
+    }
+  }
+}

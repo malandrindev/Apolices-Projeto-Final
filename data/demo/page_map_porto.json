@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "dataset_version": "demo-do-v1",
+  "source_document": "porto_demo_policy.pdf",
+  "original_source_document": "Apólice-PORTO_D&O_teste.pdf",
+  "original_source_sha256": "bf9e103a33e941e9df44a30d553e429825d66b48f658c17e3be807bec8be1145",
+  "pages": [
+    {
+      "demo_page": 1,
+      "kind": "synthetic",
+      "source_file": null,
+      "source_page": null
+    },
+    {
+      "demo_page": 2,
+      "kind": "synthetic",
+      "source_file": null,
+      "source_page": null
+    },
+    {
+      "demo_page": 3,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-PORTO_D&O_teste.pdf",
+      "source_page": 4,
+      "source_sha256": "bf9e103a33e941e9df44a30d553e429825d66b48f658c17e3be807bec8be1145",
+      "text_sha256": "9dc8bba92b2bf017389e3dfc7fcea2a89bfdda6a3853c63d5fdfacd54d0f8700"
+    },
+    {
+      "demo_page": 4,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-PORTO_D&O_teste.pdf",
+      "source_page": 5,
+      "source_sha256": "bf9e103a33e941e9df44a30d553e429825d66b48f658c17e3be807bec8be1145",
+      "text_sha256": "b2f68e34dca2fa05c9ccb9782f4c21172689ad46f2e3a63d011070a94b666255"
+    },
+    {
+      "demo_page": 5,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-PORTO_D&O_teste.pdf",
+      "source_page": 6,
+      "source_sha256": "bf9e103a33e941e9df44a30d553e429825d66b48f658c17e3be807bec8be1145",
+      "text_sha256": "a1a4cc498a61d5a7389d949cc2f96e2712aab651fb5b744c08011980370623d0"
+    },
+    {
+      "demo_page": 6,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-PORTO_D&O_teste.pdf",
+      "source_page": 7,
+      "source_sha256": "bf9e103a33e941e9df44a30d553e429825d66b48f658c17e3be807bec8be1145",
+      "text_sha256": "46042a2b707b8e1de7088d0a87c259d07dc81924d02f0abc6f3163ff0513b6d8"
+    },
+    {
+      "demo_page": 7,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-PORTO_D&O_teste.pdf",
+      "source_page": 8,
+      "source_sha256": "bf9e103a33e941e9df44a30d553e429825d66b48f658c17e3be807bec8be1145",
+      "text_sha256": "40532cf29a2db65b21910f55a9a31f621f7f28aa851533164755f253fe9328d1"
+    },
+    {
+      "demo_page": 8,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-PORTO_D&O_teste.pdf",
+      "source_page": 9,
+      "source_sha256": "bf9e103a33e941e9df44a30d553e429825d66b48f658c17e3be807bec8be1145",
+      "text_sha256": "f22b6d8d142b6d8a5093d318b7a048afe1d68810863d837fb124a88b24d576c3"
+    },
+    {
+      "demo_page": 9,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-PORTO_D&O_teste.pdf",
+      "source_page": 10,
+      "source_sha256": "bf9e103a33e941e9df44a30d553e429825d66b48f658c17e3be807bec8be1145",
+      "text_sha256": "a5e1b9f5ce9ba57106760ade0c79af58d36666fafbb9e6db475343127c65465a"
+    },
+    {
+      "demo_page": 10,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-PORTO_D&O_teste.pdf",
+      "source_page": 11,
+      "source_sha256": "bf9e103a33e941e9df44a30d553e429825d66b48f658c17e3be807bec8be1145",
+      "text_sha256": "7606996a8cb9c60e3975d2004687c5d96ea46838cb688c2d02518aa44410e4ef"
+    },
+    {
+      "demo_page": 11,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-PORTO_D&O_teste.pdf",
+      "source_page": 12,
+      "source_sha256": "bf9e103a33e941e9df44a30d553e429825d66b48f658c17e3be807bec8be1145",
+      "text_sha256": "6ad9e322878724dc0b901e8abce4bbb65bbd518026cfb4cc5df099ed9c79eaed"
+    },
+    {
+      "demo_page": 12,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-PORTO_D&O_teste.pdf",
+      "source_page": 13,
+      "source_sha256": "bf9e103a33e941e9df44a30d553e429825d66b48f658c17e3be807bec8be1145",
+      "text_sha256": "32b91274c0a8c3254973ed8de1a3d6a8fc6f78b61ce6721491c795df1a6cf61b"
+    },
+    {
+      "demo_page": 13,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-PORTO_D&O_teste.pdf",
+      "source_page": 14,
+      "source_sha256": "bf9e103a33e941e9df44a30d553e429825d66b48f658c17e3be807bec8be1145",
+      "text_sha256": "1fbfa877ab5cc127ffb74ab5a197602a464467aba111b605fa769565c74c8910"
+    },
+    {
+      "demo_page": 14,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-PORTO_D&O_teste.pdf",
+      "source_page": 15,
+      "source_sha256": "bf9e103a33e941e9df44a30d553e429825d66b48f658c17e3be807bec8be1145",
+      "text_sha256": "6f4d19c183a993c68161f4df8a23be412823edd556107fd739a68c029dce43e3"
+    },
+    {
+      "demo_page": 15,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-PORTO_D&O_teste.pdf",
+      "source_page": 16,
+      "source_sha256": "bf9e103a33e941e9df44a30d553e429825d66b48f658c17e3be807bec8be1145",
+      "text_sha256": "0e1f682d03dae77b7793d7b8ed1cffceeb6539673daa60bd86149f7a1be1cecc"
+    },
+    {
+      "demo_page": 16,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-PORTO_D&O_teste.pdf",
+      "source_page": 17,
+      "source_sha256": "bf9e103a33e941e9df44a30d553e429825d66b48f658c17e3be807bec8be1145",
+      "text_sha256": "011f5d7467c83d8c73d377ecb8907e7898edcbeda36a561bf1d6f976608beb9d"
+    },
+    {
+      "demo_page": 17,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-PORTO_D&O_teste.pdf",
+      "source_page": 18,
+      "source_sha256": "bf9e103a33e941e9df44a30d553e429825d66b48f658c17e3be807bec8be1145",
+      "text_sha256": "71f2311971a4cd44c0813b829252789f7ffbb44a5b2b07433c964be736cab215"
+    },
+    {
+      "demo_page": 18,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-PORTO_D&O_teste.pdf",
+      "source_page": 19,
+      "source_sha256": "bf9e103a33e941e9df44a30d553e429825d66b48f658c17e3be807bec8be1145",
+      "text_sha256": "682cd4846f2b1ebda5882032dc12eafc36009485ecc490b956ba0d526c1553fe"
+    },
+    {
+      "demo_page": 19,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-PORTO_D&O_teste.pdf",
+      "source_page": 21,
+      "source_sha256": "bf9e103a33e941e9df44a30d553e429825d66b48f658c17e3be807bec8be1145",
+      "text_sha256": "35917a8130cbe114a10deca9e71fc7e047ccfa2ddd7bd5432b9ae467ebe11415"
+    },
+    {
+      "demo_page": 20,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-PORTO_D&O_teste.pdf",
+      "source_page": 22,
+      "source_sha256": "bf9e103a33e941e9df44a30d553e429825d66b48f658c17e3be807bec8be1145",
+      "text_sha256": "44e825bb961880edc9d6fb2bcd5314253380c86fe851e931237eb9a17da82180"
+    },
+    {
+      "demo_page": 21,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-PORTO_D&O_teste.pdf",
+      "source_page": 23,
+      "source_sha256": "bf9e103a33e941e9df44a30d553e429825d66b48f658c17e3be807bec8be1145",
+      "text_sha256": "73c513abf7b1f58b6b4b67a3cbce3c0a6cfd2acbd01f3aa5c4215a61765cf376"
+    },
+    {
+      "demo_page": 22,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-PORTO_D&O_teste.pdf",
+      "source_page": 28,
+      "source_sha256": "bf9e103a33e941e9df44a30d553e429825d66b48f658c17e3be807bec8be1145",
+      "text_sha256": "fa9f27954de31646be017b7ca67c8cbc232efd5f16aeb09200619a3691f78e1f"
+    },
+    {
+      "demo_page": 23,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-PORTO_D&O_teste.pdf",
+      "source_page": 29,
+      "source_sha256": "bf9e103a33e941e9df44a30d553e429825d66b48f658c17e3be807bec8be1145",
+      "text_sha256": "0041ee5b833a353d1e05c26fabb9044023fc9a761d37215e02c56a5df62c648c"
+    },
+    {
+      "demo_page": 24,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-PORTO_D&O_teste.pdf",
+      "source_page": 30,
+      "source_sha256": "bf9e103a33e941e9df44a30d553e429825d66b48f658c17e3be807bec8be1145",
+      "text_sha256": "94666348e1bcd91a7fbae1840846aa9a1c5bab959e385f38fb868e17b9badbd9"
+    },
+    {
+      "demo_page": 25,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-PORTO_D&O_teste.pdf",
+      "source_page": 31,
+      "source_sha256": "bf9e103a33e941e9df44a30d553e429825d66b48f658c17e3be807bec8be1145",
+      "text_sha256": "b9bd0a29eb81d646a7016bb05534b6a543ed1d2676d5d76889dce843dbe8858a"
+    },
+    {
+      "demo_page": 26,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-PORTO_D&O_teste.pdf",
+      "source_page": 32,
+      "source_sha256": "bf9e103a33e941e9df44a30d553e429825d66b48f658c17e3be807bec8be1145",
+      "text_sha256": "54b6c49b6b9bd55a41b49bacda232ccb22a6cd4a957fb53b6890458a2d0fc815"
+    },
+    {
+      "demo_page": 27,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-PORTO_D&O_teste.pdf",
+      "source_page": 33,
+      "source_sha256": "bf9e103a33e941e9df44a30d553e429825d66b48f658c17e3be807bec8be1145",
+      "text_sha256": "a6e12841c53b0f5962e9bd5925fb8c66c24850d3303ad2b14e48114ec5eb0466"
+    },
+    {
+      "demo_page": 28,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-PORTO_D&O_teste.pdf",
+      "source_page": 34,
+      "source_sha256": "bf9e103a33e941e9df44a30d553e429825d66b48f658c17e3be807bec8be1145",
+      "text_sha256": "a2fee6027cba099272de101f9e8b6a164d4d44adb406dad0f37b778d168dd606"
+    },
+    {
+      "demo_page": 29,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-PORTO_D&O_teste.pdf",
+      "source_page": 35,
+      "source_sha256": "bf9e103a33e941e9df44a30d553e429825d66b48f658c17e3be807bec8be1145",
+      "text_sha256": "6a5f3bafbab13dbec152bacf71bbe0a65bee099f9b73f2d78e6f3a35c807fbf8"
+    },
+    {
+      "demo_page": 30,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-PORTO_D&O_teste.pdf",
+      "source_page": 36,
+      "source_sha256": "bf9e103a33e941e9df44a30d553e429825d66b48f658c17e3be807bec8be1145",
+      "text_sha256": "4c763e83bf9293d5e2a8b8fa5c8f25bb724a4e869e488131eae4e72682553a53"
+    }
+  ]
+}

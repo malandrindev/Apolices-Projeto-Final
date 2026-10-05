@@ -1,0 +1,881 @@
+{
+  "openai": {
+    "diagnostic": {
+      "status": "PASS",
+      "mode": "live",
+      "synthetic_data": true,
+      "generative_ai_verified": true,
+      "limitations": [],
+      "documents": [
+        {
+          "source_name": "sintetica_A_textual.pdf",
+          "sha256": "5e5da4ad21f0a4c9ca6f0f16f30bf6f3713148ec2f13eeff0d78e7136d73a7aa",
+          "pages": 1,
+          "clauses": 1,
+          "extraction_methods": [
+            "native"
+          ],
+          "report_path": "data\\processed\\e2e_smoke_openai\\e5a0e079b0e4b2b314b6fda44ae446f29bcf88d9b951440c8ccc793ca99c2d75.json"
+        },
+        {
+          "source_name": "sintetica_B_imagem.png",
+          "sha256": "1d4d4110a36a73502929d7c6470015d7effd72065600569e8223d5fbf93b8ec2",
+          "pages": 1,
+          "clauses": 1,
+          "extraction_methods": [
+            "tesseract"
+          ],
+          "report_path": "data\\processed\\e2e_smoke_openai\\7caa81849d816d139d358b36001b5f0d6849a10919cb9fb179292a6e92ebe4a0.json"
+        }
+      ],
+      "logical_calls": 3,
+      "stages": [
+        "extraction",
+        "extraction",
+        "comparison"
+      ],
+      "http_attempts": 3,
+      "usage": {
+        "calls": 3,
+        "prompt_tokens": 3589,
+        "completion_tokens": 1980
+      },
+      "resume_cache_hits": 2,
+      "resume_new_calls": 0,
+      "sqlite_path": "data\\processed\\e2e_smoke_openai\\policies.sqlite3",
+      "artifacts": {
+        "markdown": "data\\processed\\e2e_smoke_openai\\comparison_reports\\comparacao_91a708ce486ec85edb15.md",
+        "pdf": "data\\processed\\e2e_smoke_openai\\comparison_reports\\comparacao_91a708ce486ec85edb15.pdf",
+        "json": "data\\processed\\e2e_smoke_openai\\comparison_reports\\comparacao_91a708ce486ec85edb15.json"
+      },
+      "first_pass_ocr_progress": [
+        [
+          1,
+          1,
+          "native"
+        ],
+        [
+          1,
+          1,
+          "tesseract"
+        ]
+      ]
+    },
+    "comparison": {
+      "source_a": "sintetica_A_textual.pdf",
+      "document_id_a": "5e5da4ad21f0a4c9ca6f0f16f30bf6f3713148ec2f13eeff0d78e7136d73a7aa",
+      "source_b": "sintetica_B_imagem.png",
+      "document_id_b": "1d4d4110a36a73502929d7c6470015d7effd72065600569e8223d5fbf93b8ec2",
+      "compared_at": "2026-10-03T22:58:09.007019+00:00",
+      "differences": [
+        {
+          "field_name": "seguradora",
+          "label": "Seguradora",
+          "value_a": "Companhia Exemplo A",
+          "value_b": "Companhia Exemplo B",
+          "classification": "diferente_nao_comparavel",
+          "justification": "Identificações distintas, sem direção de vantagem.",
+          "citation_a": {
+            "source_name": "sintetica_A_textual.pdf",
+            "page_number": 1,
+            "excerpt": "Seguradora: Companhia Exemplo A"
+          },
+          "citation_b": {
+            "source_name": "sintetica_B_imagem.png",
+            "page_number": 1,
+            "excerpt": "Seguradora: Companhia Exemplo B"
+          }
+        },
+        {
+          "field_name": "vigencia_inicio",
+          "label": "Início da vigência",
+          "value_a": "01/01/2026",
+          "value_b": "01/02/2026",
+          "classification": "diferente_nao_comparavel",
+          "justification": "Datas ou períodos distintos; uma data isolada não determina vantagem contratual.",
+          "citation_a": {
+            "source_name": "sintetica_A_textual.pdf",
+            "page_number": 1,
+            "excerpt": "Vigencia inicio: 01/01/2026"
+          },
+          "citation_b": {
+            "source_name": "sintetica_B_imagem.png",
+            "page_number": 1,
+            "excerpt": "Vigencia inicio: 01/02/2026"
+          }
+        },
+        {
+          "field_name": "limite_maximo_garantia",
+          "label": "Limite máximo de garantia",
+          "value_a": "R$ 10.000.000,00",
+          "value_b": "R$ 8.000.000,00",
+          "classification": "mais_favoravel_A",
+          "justification": "Maior limite nominal neste campo e na mesma moeda (BRL); confira escopo, limites agregados e condições. Isso não ordena a apólice inteira.",
+          "citation_a": {
+            "source_name": "sintetica_A_textual.pdf",
+            "page_number": 1,
+            "excerpt": "Limite: R$ 10.000.000,00"
+          },
+          "citation_b": {
+            "source_name": "sintetica_B_imagem.png",
+            "page_number": 1,
+            "excerpt": "Limite: R$ 8.000.000,00"
+          }
+        },
+        {
+          "field_name": "retencao_franquia",
+          "label": "Retenção/franquia",
+          "value_a": "R$ 100.000,00",
+          "value_b": "R$ 200.000,00",
+          "classification": "mais_favoravel_A",
+          "justification": "Menor desembolso nominal neste campo e na mesma moeda (BRL); confira escopo, limites agregados e condições. Isso não ordena a apólice inteira.",
+          "citation_a": {
+            "source_name": "sintetica_A_textual.pdf",
+            "page_number": 1,
+            "excerpt": "Franquia: R$ 100.000,00"
+          },
+          "citation_b": {
+            "source_name": "sintetica_B_imagem.png",
+            "page_number": 1,
+            "excerpt": "Franquia: R$ 200.000,00"
+          }
+        },
+        {
+          "field_name": "side_a",
+          "label": "Side A",
+          "value_a": "Inclui custos de defesa",
+          "value_b": "Exclui custos de defesa",
+          "classification": "mais_favoravel_A",
+          "justification": "No mesmo escopo de Side A, a apólice A inclui custos de defesa, enquanto a apólice B os exclui. A oferece expressamente cobertura mais ampla nesse aspecto.",
+          "citation_a": {
+            "source_name": "sintetica_A_textual.pdf",
+            "page_number": 1,
+            "excerpt": "Side A: Inclui custos de defesa."
+          },
+          "citation_b": {
+            "source_name": "sintetica_B_imagem.png",
+            "page_number": 1,
+            "excerpt": "Side A: Exclui custos de defesa."
+          }
+        },
+        {
+          "field_name": "custos_defesa",
+          "label": "Custos de defesa",
+          "value_a": "Inclui custos de defesa",
+          "value_b": "Excluídos na cobertura Side A",
+          "classification": "mais_favoravel_A",
+          "justification": "Quanto aos custos de defesa na cobertura Side A, A os inclui expressamente e B os exclui expressamente; portanto, A é mais favorável nesse item.",
+          "citation_a": {
+            "source_name": "sintetica_A_textual.pdf",
+            "page_number": 1,
+            "excerpt": "Side A: Inclui custos de defesa."
+          },
+          "citation_b": {
+            "source_name": "sintetica_B_imagem.png",
+            "page_number": 1,
+            "excerpt": "Side A: Exclui custos de defesa."
+          }
+        }
+      ],
+      "executive_summary": "Foram identificadas 6 diferenças nos campos estruturados: 4 com vantagem pontual para A, 0 para B, 0 com informação ausente em uma fonte e 2 sem ordenação segura. 20 campos não foram localizados em ambas as fontes. A análise apoia a revisão humana e não constitui parecer jurídico.",
+      "risk_highlights": [
+        "Seguradora: Identificações distintas, sem direção de vantagem.",
+        "Início da vigência: Datas ou períodos distintos; uma data isolada não determina vantagem contratual."
+      ]
+    }
+  },
+  "groq": {
+    "diagnostic": {
+      "status": "PASS",
+      "mode": "live",
+      "synthetic_data": true,
+      "generative_ai_verified": true,
+      "limitations": [],
+      "documents": [
+        {
+          "source_name": "sintetica_A_textual.pdf",
+          "sha256": "e049eab4f76fc18e3a80d1313a8667696fb9cead3899e2a83f1d87e8965177cb",
+          "pages": 1,
+          "clauses": 1,
+          "extraction_methods": [
+            "native"
+          ],
+          "report_path": "data\\processed\\e2e_smoke_groq\\d3210d7c85922225303debccfb8a745993139bb11a628de80fa80e08eeb746f8.json"
+        },
+        {
+          "source_name": "sintetica_B_imagem.png",
+          "sha256": "1d4d4110a36a73502929d7c6470015d7effd72065600569e8223d5fbf93b8ec2",
+          "pages": 1,
+          "clauses": 1,
+          "extraction_methods": [
+            "tesseract"
+          ],
+          "report_path": "data\\processed\\e2e_smoke_groq\\58c91dcdbc88c71ee70a50cce3b168dadadbf9b8a1894fe8009e56fa28339c2b.json"
+        }
+      ],
+      "logical_calls": 3,
+      "stages": [
+        "extraction",
+        "extraction",
+        "comparison"
+      ],
+      "http_attempts": 3,
+      "usage": {
+        "calls": 3,
+        "prompt_tokens": 2428,
+        "completion_tokens": 3530
+      },
+      "resume_cache_hits": 2,
+      "resume_new_calls": 0,
+      "sqlite_path": "data\\processed\\e2e_smoke_groq\\policies.sqlite3",
+      "artifacts": {
+        "markdown": "data\\processed\\e2e_smoke_groq\\comparison_reports\\comparacao_ee1df61918bc251d77cb.md",
+        "pdf": "data\\processed\\e2e_smoke_groq\\comparison_reports\\comparacao_ee1df61918bc251d77cb.pdf",
+        "json": "data\\processed\\e2e_smoke_groq\\comparison_reports\\comparacao_ee1df61918bc251d77cb.json"
+      },
+      "first_pass_ocr_progress": [
+        [
+          1,
+          1,
+          "native"
+        ],
+        [
+          1,
+          1,
+          "tesseract"
+        ]
+      ]
+    },
+    "comparison": {
+      "source_a": "sintetica_A_textual.pdf",
+      "document_id_a": "e049eab4f76fc18e3a80d1313a8667696fb9cead3899e2a83f1d87e8965177cb",
+      "source_b": "sintetica_B_imagem.png",
+      "document_id_b": "1d4d4110a36a73502929d7c6470015d7effd72065600569e8223d5fbf93b8ec2",
+      "compared_at": "2026-10-03T23:04:03.768423+00:00",
+      "differences": [
+        {
+          "field_name": "seguradora",
+          "label": "Seguradora",
+          "value_a": "Companhia Exemplo A",
+          "value_b": "Companhia Exemplo B",
+          "classification": "diferente_nao_comparavel",
+          "justification": "Identificações distintas, sem direção de vantagem.",
+          "citation_a": {
+            "source_name": "sintetica_A_textual.pdf",
+            "page_number": 1,
+            "excerpt": "Seguradora: Companhia Exemplo A"
+          },
+          "citation_b": {
+            "source_name": "sintetica_B_imagem.png",
+            "page_number": 1,
+            "excerpt": "Seguradora: Companhia Exemplo B"
+          }
+        },
+        {
+          "field_name": "vigencia_inicio",
+          "label": "Início da vigência",
+          "value_a": "01/01/2026",
+          "value_b": "01/02/2026",
+          "classification": "diferente_nao_comparavel",
+          "justification": "Datas ou períodos distintos; uma data isolada não determina vantagem contratual.",
+          "citation_a": {
+            "source_name": "sintetica_A_textual.pdf",
+            "page_number": 1,
+            "excerpt": "Vigencia inicio: 01/01/2026"
+          },
+          "citation_b": {
+            "source_name": "sintetica_B_imagem.png",
+            "page_number": 1,
+            "excerpt": "Vigencia inicio: 01/02/2026"
+          }
+        },
+        {
+          "field_name": "limite_maximo_garantia",
+          "label": "Limite máximo de garantia",
+          "value_a": "R$ 10.000.000,00",
+          "value_b": "R$ 8.000.000,00",
+          "classification": "mais_favoravel_A",
+          "justification": "Maior limite nominal neste campo e na mesma moeda (BRL); confira escopo, limites agregados e condições. Isso não ordena a apólice inteira.",
+          "citation_a": {
+            "source_name": "sintetica_A_textual.pdf",
+            "page_number": 1,
+            "excerpt": "Limite: R$ 10.000.000,00"
+          },
+          "citation_b": {
+            "source_name": "sintetica_B_imagem.png",
+            "page_number": 1,
+            "excerpt": "Limite: R$ 8.000.000,00"
+          }
+        },
+        {
+          "field_name": "retencao_franquia",
+          "label": "Retenção/franquia",
+          "value_a": "R$ 100.000,00",
+          "value_b": "R$ 200.000,00",
+          "classification": "mais_favoravel_A",
+          "justification": "Menor desembolso nominal neste campo e na mesma moeda (BRL); confira escopo, limites agregados e condições. Isso não ordena a apólice inteira.",
+          "citation_a": {
+            "source_name": "sintetica_A_textual.pdf",
+            "page_number": 1,
+            "excerpt": "Franquia: R$ 100.000,00"
+          },
+          "citation_b": {
+            "source_name": "sintetica_B_imagem.png",
+            "page_number": 1,
+            "excerpt": "Franquia: R$ 200.000,00"
+          }
+        },
+        {
+          "field_name": "side_a",
+          "label": "Side A",
+          "value_a": "Inclui custos de defesa.",
+          "value_b": "Exclui custos de defesa.",
+          "classification": "mais_favoravel_A",
+          "justification": "A cobertura da Apólice A inclui custos de defesa, enquanto a Apólice B exclui esses custos; assim, A oferece proteção mais ampla para despesas de defesa.",
+          "citation_a": {
+            "source_name": "sintetica_A_textual.pdf",
+            "page_number": 1,
+            "excerpt": "Side A: Inclui custos de defesa."
+          },
+          "citation_b": {
+            "source_name": "sintetica_B_imagem.png",
+            "page_number": 1,
+            "excerpt": "Side A: Exclui custos de defesa."
+          }
+        }
+      ],
+      "executive_summary": "Foram identificadas 5 diferenças nos campos estruturados: 3 com vantagem pontual para A, 0 para B, 0 com informação ausente em uma fonte e 2 sem ordenação segura. 21 campos não foram localizados em ambas as fontes. A análise apoia a revisão humana e não constitui parecer jurídico.",
+      "risk_highlights": [
+        "Seguradora: Identificações distintas, sem direção de vantagem.",
+        "Início da vigência: Datas ou períodos distintos; uma data isolada não determina vantagem contratual."
+      ]
+    }
+  },
+  "ocr": {
+    "status": "PASS",
+    "validation_at_utc": "2026-10-03T22:44:59.371026+00:00",
+    "document_kind": "synthetic OCR diagnostic, not policy",
+    "engine": "5.4.0.20240606",
+    "languages_available": [
+      "eng",
+      "osd",
+      "por"
+    ],
+    "languages_requested": "por+eng",
+    "render_dpi": 200,
+    "results": [
+      {
+        "input_path": "C:\\dev\\I2A2\\Apolices-Projeto-Final-I2A2\\data\\processed\\ocr_validation\\ocr_native_validation.pdf",
+        "sha256": "003776f2facdd9235a7e5150a5a7ddf55e6b5f2bc867a154cb586b5b584b8bc9",
+        "size_bytes": 881,
+        "pages": 1,
+        "method": "native",
+        "render_dpi": null,
+        "recognized_expected_text": true,
+        "text_chars": 45,
+        "duration_ms": 1.45,
+        "cache_hit": false,
+        "result_path": "C:\\dev\\I2A2\\Apolices-Projeto-Final-I2A2\\data\\processed\\ocr_validation\\cache\\d866b8bbf6fe52c5cc132a43dd79ec73af4d1dd5a85f9659b7d3e67ef547a130.json",
+        "progress_events": [
+          [
+            1,
+            1,
+            "native"
+          ]
+        ]
+      },
+      {
+        "input_path": "C:\\dev\\I2A2\\Apolices-Projeto-Final-I2A2\\data\\processed\\ocr_validation\\ocr_image_validation.png",
+        "sha256": "35e99078046bc7dc1a56f9201e7ffd49042ab3c6e2317e412b495eaf59bf82f0",
+        "size_bytes": 32970,
+        "pages": 1,
+        "method": "tesseract",
+        "render_dpi": null,
+        "recognized_expected_text": true,
+        "text_chars": 45,
+        "duration_ms": 672.218,
+        "cache_hit": false,
+        "result_path": "C:\\dev\\I2A2\\Apolices-Projeto-Final-I2A2\\data\\processed\\ocr_validation\\cache\\2f7b9a6faca2f8b3356089403dd949969f74cb146f623573edb249c89a033ad0.json",
+        "progress_events": [
+          [
+            1,
+            1,
+            "tesseract"
+          ]
+        ]
+      },
+      {
+        "input_path": "C:\\dev\\I2A2\\Apolices-Projeto-Final-I2A2\\data\\processed\\ocr_validation\\ocr_scanned_validation.pdf",
+        "sha256": "6e1b152080bbdf886d88718bcfa9f5ca894e1fd021a96d7e3f0c0479616a95d8",
+        "size_bytes": 31128,
+        "pages": 1,
+        "method": "tesseract",
+        "render_dpi": 200,
+        "recognized_expected_text": true,
+        "text_chars": 45,
+        "duration_ms": 897.507,
+        "cache_hit": false,
+        "result_path": "C:\\dev\\I2A2\\Apolices-Projeto-Final-I2A2\\data\\processed\\ocr_validation\\cache\\344170c278d63d653ad97d83a7485647950ca00960d471287878996aa4539af1.json",
+        "progress_events": [
+          [
+            1,
+            1,
+            "tesseract"
+          ]
+        ]
+      }
+    ]
+  },
+  "rag_first": {
+    "started_at_utc": "2026-10-03T22:53:02.307115+00:00",
+    "python": "3.11.0",
+    "cpu_logical_count": 12,
+    "device": "cpu",
+    "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "phase_timeout_seconds": 60.0,
+    "model_cache_bytes_before": 0,
+    "model_cache_path": "C:\\dev\\I2A2\\Apolices-Projeto-Final-I2A2\\data\\processed\\rag_benchmark\\huggingface_cache",
+    "synthetic_chunk_count": 4,
+    "llm_calls": 0,
+    "workers": [
+      {
+        "worker": "src.storage.vector_store",
+        "status": "PASS",
+        "exit_code": 0,
+        "stderr_line_count": 0,
+        "phases": [
+          {
+            "phase": "import_src.storage.vector_store",
+            "status": "PASS",
+            "wall_seconds": 0.1513,
+            "cpu_seconds": 0.1406,
+            "rss_mb_before": null,
+            "rss_mb_after": null,
+            "detail": null
+          }
+        ]
+      },
+      {
+        "worker": "chromadb",
+        "status": "PASS",
+        "exit_code": 0,
+        "stderr_line_count": 0,
+        "phases": [
+          {
+            "phase": "import_chromadb",
+            "status": "PASS",
+            "wall_seconds": 1.3036,
+            "cpu_seconds": 0.7656,
+            "rss_mb_before": null,
+            "rss_mb_after": null,
+            "detail": null
+          }
+        ]
+      },
+      {
+        "worker": "sentence_transformers",
+        "status": "PASS",
+        "exit_code": 0,
+        "stderr_line_count": 0,
+        "phases": [
+          {
+            "phase": "import_sentence_transformers",
+            "status": "PASS",
+            "wall_seconds": 11.6422,
+            "cpu_seconds": 5.625,
+            "rss_mb_before": null,
+            "rss_mb_after": null,
+            "detail": null
+          }
+        ]
+      },
+      {
+        "worker": "fake_cache",
+        "status": "PASS",
+        "exit_code": 0,
+        "stderr_line_count": 0,
+        "phases": [
+          {
+            "phase": "fake_cache_behavior",
+            "status": "PASS",
+            "wall_seconds": 0.3782,
+            "cpu_seconds": 0.2031,
+            "rss_mb_before": null,
+            "rss_mb_after": null,
+            "detail": {
+              "index_operations": 2,
+              "query_operations": 2,
+              "encoder_calls": 2,
+              "texts_encoded": 5,
+              "index_chunks": 4,
+              "stored_ids": 4,
+              "expected_repeated_work_without_cache": {
+                "encoder_calls": 4,
+                "texts_encoded": 10
+              }
+            }
+          }
+        ]
+      },
+      {
+        "worker": "model_flow",
+        "status": "PASS",
+        "exit_code": 0,
+        "stderr_line_count": 10,
+        "phases": [
+          {
+            "phase": "model_process_import_sentence_transformers",
+            "status": "PASS",
+            "wall_seconds": 6.0937,
+            "cpu_seconds": 5.4062,
+            "rss_mb_before": null,
+            "rss_mb_after": null,
+            "detail": null
+          },
+          {
+            "phase": "first_model_download_and_load",
+            "status": "PASS",
+            "wall_seconds": 25.5578,
+            "cpu_seconds": 4.0469,
+            "rss_mb_before": null,
+            "rss_mb_after": null,
+            "detail": {
+              "device": "cpu",
+              "model_name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+            }
+          },
+          {
+            "phase": "encode_four_chunks",
+            "status": "PASS",
+            "wall_seconds": 1.3458,
+            "cpu_seconds": 0.6094,
+            "rss_mb_before": null,
+            "rss_mb_after": null,
+            "detail": {
+              "texts": 4,
+              "dimensions": 384
+            }
+          },
+          {
+            "phase": "encode_four_chunks_repeat_without_vector_cache",
+            "status": "PASS",
+            "wall_seconds": 0.0327,
+            "cpu_seconds": 0.1562,
+            "rss_mb_before": null,
+            "rss_mb_after": null,
+            "detail": {
+              "texts": 4,
+              "dimensions": 384
+            }
+          },
+          {
+            "phase": "model_process_import_chromadb",
+            "status": "PASS",
+            "wall_seconds": 0.5498,
+            "cpu_seconds": 1.5,
+            "rss_mb_before": null,
+            "rss_mb_after": null,
+            "detail": null
+          },
+          {
+            "phase": "chroma_local_startup",
+            "status": "PASS",
+            "wall_seconds": 2.1686,
+            "cpu_seconds": 0.0781,
+            "rss_mb_before": null,
+            "rss_mb_after": null,
+            "detail": null
+          },
+          {
+            "phase": "index_four_chunks_first",
+            "status": "PASS",
+            "wall_seconds": 0.1337,
+            "cpu_seconds": 0.3594,
+            "rss_mb_before": null,
+            "rss_mb_after": null,
+            "detail": {
+              "indexed_chunks": 4
+            }
+          },
+          {
+            "phase": "index_four_chunks_repeat_cached",
+            "status": "PASS",
+            "wall_seconds": 0.0421,
+            "cpu_seconds": 0.3125,
+            "rss_mb_before": null,
+            "rss_mb_after": null,
+            "detail": {
+              "indexed_chunks": 4
+            }
+          },
+          {
+            "phase": "query_first",
+            "status": "PASS",
+            "wall_seconds": 0.0206,
+            "cpu_seconds": 0.0938,
+            "rss_mb_before": null,
+            "rss_mb_after": null,
+            "detail": {
+              "retrieved_chunks": 3,
+              "document_filter_preserved": true
+            }
+          },
+          {
+            "phase": "query_repeat_cached",
+            "status": "PASS",
+            "wall_seconds": 0.0103,
+            "cpu_seconds": 0.0781,
+            "rss_mb_before": null,
+            "rss_mb_after": null,
+            "detail": {
+              "retrieved_chunks": 3,
+              "document_filter_preserved": true
+            }
+          },
+          {
+            "phase": "new_encoder_index_repeat_persistent_cache",
+            "status": "PASS",
+            "wall_seconds": 0.0152,
+            "cpu_seconds": 0.0,
+            "rss_mb_before": null,
+            "rss_mb_after": null,
+            "detail": {
+              "indexed_chunks": 4,
+              "model_loaded": false
+            }
+          }
+        ]
+      }
+    ],
+    "model_cache_bytes_after": 479729245,
+    "completed_at_utc": "2026-10-03T22:53:53.937768+00:00",
+    "status": "PASS"
+  },
+  "rag_cached": {
+    "started_at_utc": "2026-10-03T22:55:12.373567+00:00",
+    "python": "3.11.0",
+    "cpu_logical_count": 12,
+    "device": "cpu",
+    "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "phase_timeout_seconds": 60.0,
+    "model_cache_bytes_before": 479729245,
+    "model_cache_path": "C:\\dev\\I2A2\\Apolices-Projeto-Final-I2A2\\data\\processed\\rag_benchmark\\huggingface_cache",
+    "synthetic_chunk_count": 4,
+    "llm_calls": 0,
+    "workers": [
+      {
+        "worker": "src.storage.vector_store",
+        "status": "PASS",
+        "exit_code": 0,
+        "stderr_line_count": 0,
+        "phases": [
+          {
+            "phase": "import_src.storage.vector_store",
+            "status": "PASS",
+            "wall_seconds": 0.1451,
+            "cpu_seconds": 0.1406,
+            "rss_mb_before": 19.902,
+            "rss_mb_after": 31.914,
+            "detail": null
+          }
+        ]
+      },
+      {
+        "worker": "chromadb",
+        "status": "PASS",
+        "exit_code": 0,
+        "stderr_line_count": 0,
+        "phases": [
+          {
+            "phase": "import_chromadb",
+            "status": "PASS",
+            "wall_seconds": 0.9777,
+            "cpu_seconds": 0.7969,
+            "rss_mb_before": 20.109,
+            "rss_mb_after": 68.551,
+            "detail": null
+          }
+        ]
+      },
+      {
+        "worker": "sentence_transformers",
+        "status": "PASS",
+        "exit_code": 0,
+        "stderr_line_count": 0,
+        "phases": [
+          {
+            "phase": "import_sentence_transformers",
+            "status": "PASS",
+            "wall_seconds": 6.5266,
+            "cpu_seconds": 5.7969,
+            "rss_mb_before": 20.043,
+            "rss_mb_after": 401.113,
+            "detail": null
+          }
+        ]
+      },
+      {
+        "worker": "fake_cache",
+        "status": "PASS",
+        "exit_code": 0,
+        "stderr_line_count": 0,
+        "phases": [
+          {
+            "phase": "fake_cache_behavior",
+            "status": "PASS",
+            "wall_seconds": 0.3013,
+            "cpu_seconds": 0.2812,
+            "rss_mb_before": 20.094,
+            "rss_mb_after": 61.484,
+            "detail": {
+              "index_operations": 2,
+              "query_operations": 2,
+              "encoder_calls": 2,
+              "texts_encoded": 5,
+              "index_chunks": 4,
+              "stored_ids": 4,
+              "expected_repeated_work_without_cache": {
+                "encoder_calls": 4,
+                "texts_encoded": 10
+              }
+            }
+          }
+        ]
+      },
+      {
+        "worker": "model_flow",
+        "status": "PASS",
+        "exit_code": 0,
+        "stderr_line_count": 1,
+        "phases": [
+          {
+            "phase": "model_process_import_sentence_transformers",
+            "status": "PASS",
+            "wall_seconds": 6.5159,
+            "cpu_seconds": 5.875,
+            "rss_mb_before": 20.113,
+            "rss_mb_after": 400.562,
+            "detail": null
+          },
+          {
+            "phase": "first_model_download_and_load",
+            "status": "PASS",
+            "wall_seconds": 5.1575,
+            "cpu_seconds": 2.0625,
+            "rss_mb_before": 400.57,
+            "rss_mb_after": 1159.648,
+            "detail": {
+              "device": "cpu",
+              "model_name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+            }
+          },
+          {
+            "phase": "encode_four_chunks",
+            "status": "PASS",
+            "wall_seconds": 0.1508,
+            "cpu_seconds": 0.5781,
+            "rss_mb_before": 1161.953,
+            "rss_mb_after": 1167.047,
+            "detail": {
+              "texts": 4,
+              "dimensions": 384
+            }
+          },
+          {
+            "phase": "encode_four_chunks_repeat_without_vector_cache",
+            "status": "PASS",
+            "wall_seconds": 0.028,
+            "cpu_seconds": 0.0938,
+            "rss_mb_before": 1167.047,
+            "rss_mb_after": 1167.508,
+            "detail": {
+              "texts": 4,
+              "dimensions": 384
+            }
+          },
+          {
+            "phase": "model_process_import_chromadb",
+            "status": "PASS",
+            "wall_seconds": 0.6303,
+            "cpu_seconds": 1.5469,
+            "rss_mb_before": 1167.508,
+            "rss_mb_after": 1175.359,
+            "detail": null
+          },
+          {
+            "phase": "chroma_local_startup",
+            "status": "PASS",
+            "wall_seconds": 0.3494,
+            "cpu_seconds": 0.1562,
+            "rss_mb_before": 1175.363,
+            "rss_mb_after": 1181.98,
+            "detail": null
+          },
+          {
+            "phase": "index_four_chunks_first",
+            "status": "PASS",
+            "wall_seconds": 0.2454,
+            "cpu_seconds": 1.125,
+            "rss_mb_before": 1181.98,
+            "rss_mb_after": 1192.078,
+            "detail": {
+              "indexed_chunks": 4
+            }
+          },
+          {
+            "phase": "index_four_chunks_repeat_cached",
+            "status": "PASS",
+            "wall_seconds": 0.0419,
+            "cpu_seconds": 0.0,
+            "rss_mb_before": 1192.082,
+            "rss_mb_after": 1192.105,
+            "detail": {
+              "indexed_chunks": 4
+            }
+          },
+          {
+            "phase": "query_first",
+            "status": "PASS",
+            "wall_seconds": 0.034,
+            "cpu_seconds": 0.1719,
+            "rss_mb_before": 1192.105,
+            "rss_mb_after": 1192.391,
+            "detail": {
+              "retrieved_chunks": 3,
+              "document_filter_preserved": true
+            }
+          },
+          {
+            "phase": "query_repeat_cached",
+            "status": "PASS",
+            "wall_seconds": 0.012,
+            "cpu_seconds": 0.0781,
+            "rss_mb_before": 1192.391,
+            "rss_mb_after": 1192.391,
+            "detail": {
+              "retrieved_chunks": 3,
+              "document_filter_preserved": true
+            }
+          },
+          {
+            "phase": "new_encoder_index_repeat_persistent_cache",
+            "status": "PASS",
+            "wall_seconds": 0.0197,
+            "cpu_seconds": 0.0781,
+            "rss_mb_before": 1192.391,
+            "rss_mb_after": 1192.426,
+            "detail": {
+              "indexed_chunks": 4,
+              "model_loaded": false
+            }
+          }
+        ]
+      }
+    ],
+    "model_cache_bytes_after": 479729245,
+    "embedding_cache_bytes": 52949,
+    "embedding_cache_files": 5,
+    "completed_at_utc": "2026-10-03T22:55:35.875287+00:00",
+    "status": "PASS"
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "version": "public-retrieval-golden-v1",
+  "reference_method": "Manually selected headings/text anchors, checked by deterministic substring on source page; zero GenAI",
+  "scope": "Candidate retrieval recall only; no assertion of contracted coverage, extraction accuracy or semantic completeness",
+  "documents": {
+    "axa_do_202512_v1": {
+      "local_path": "data\\processed\\public_validation_preflight\\axa_do_202512_v1.pdf",
+      "sha256": "1798723c7a3078496bfc9dcedcc5a02ac5e1a5466784264d517f3ad9f8bc5f19",
+      "source_url": "https://axa.com.br/minio/cms/CG_AXA_D_and_O_15414_901016_2017_01_20251230_90a6f5bcbc.pdf",
+      "pages": 104
+    },
+    "berkley_do_202512": {
+      "local_path": "data\\processed\\public_validation_preflight\\berkley_do_202512.pdf",
+      "sha256": "038683e096c2ae0378df25ef18d147493f72627399d1530310af14023df8fea8",
+      "source_url": "https://www.berkley.com.br/wp-content/uploads/2022/03/Seguro-DO_Vigencia-a-partir-de-11.12.2025_v2.pdf",
+      "pages": 83
+    }
+  },
+  "items": [
+    {
+      "id": "G01",
+      "document_id": "berkley_do_202512",
+      "sha256": "038683e096c2ae0378df25ef18d147493f72627399d1530310af14023df8fea8",
+      "field": "seguradora",
+      "expected_theme": "Processo SUSEP do documento",
+      "page": 1,
+      "quote": "15414.901494/2017-11"
+    },
+    {
+      "id": "G02",
+      "document_id": "berkley_do_202512",
+      "sha256": "038683e096c2ae0378df25ef18d147493f72627399d1530310af14023df8fea8",
+      "field": "seguradora",
+      "expected_theme": "Identificação textual da seguradora",
+      "page": 6,
+      "quote": "Berkley."
+    },
+    {
+      "id": "G03",
+      "document_id": "berkley_do_202512",
+      "sha256": "038683e096c2ae0378df25ef18d147493f72627399d1530310af14023df8fea8",
+      "field": "limite_maximo_garantia",
+      "expected_theme": "Definição de LMG, sem valor contratado",
+      "page": 9,
+      "quote": "LIMITE MÁXIMO DE GARANTIA (LMG)"
+    },
+    {
+      "id": "G04",
+      "document_id": "berkley_do_202512",
+      "sha256": "038683e096c2ae0378df25ef18d147493f72627399d1530310af14023df8fea8",
+      "field": "retencao_franquia",
+      "expected_theme": "Cláusula de franquia e participação obrigatória",
+      "page": 30,
+      "quote": "FRANQUIA E/OU PARTICIPAÇÃO OBRIGATÓRIA DO SEGURADO"
+    },
+    {
+      "id": "G05",
+      "document_id": "berkley_do_202512",
+      "sha256": "038683e096c2ae0378df25ef18d147493f72627399d1530310af14023df8fea8",
+      "field": "side_a",
+      "expected_theme": "Cobertura A: indenização ou reembolso ao segurado",
+      "page": 50,
+      "quote": "COBERTURA “A” – INDENIZAÇÃO OU REEMBOLSO AO SEGURADO"
+    },
+    {
+      "id": "G06",
+      "document_id": "berkley_do_202512",
+      "sha256": "038683e096c2ae0378df25ef18d147493f72627399d1530310af14023df8fea8",
+      "field": "side_b",
+      "expected_theme": "Cobertura B: reembolso à sociedade",
+      "page": 50,
+      "quote": "COBERTURA “B” – REEMBOLSO À SOCIEDADE"
+    },
+    {
+      "id": "G07",
+      "document_id": "berkley_do_202512",
+      "sha256": "038683e096c2ae0378df25ef18d147493f72627399d1530310af14023df8fea8",
+      "field": "side_c",
+      "expected_theme": "Cobertura C adicional e condicional, sem comprovação de contratação",
+      "page": 76,
+      "quote": "COBERTURA C"
+    },
+    {
+      "id": "G08",
+      "document_id": "berkley_do_202512",
+      "sha256": "038683e096c2ae0378df25ef18d147493f72627399d1530310af14023df8fea8",
+      "field": "custos_defesa",
+      "expected_theme": "Definição de custos de defesa",
+      "page": 12,
+      "quote": "CUSTOS DE DEFESA"
+    },
+    {
+      "id": "G09",
+      "document_id": "berkley_do_202512",
+      "sha256": "038683e096c2ae0378df25ef18d147493f72627399d1530310af14023df8fea8",
+      "field": "data_retroativa",
+      "expected_theme": "Definição de data retroativa",
+      "page": 8,
+      "quote": "DATA RETROATIVA DE COBERTURA OU DATA LIMITE DE RETROATIVIDADE"
+    },
+    {
+      "id": "G10",
+      "document_id": "berkley_do_202512",
+      "sha256": "038683e096c2ae0378df25ef18d147493f72627399d1530310af14023df8fea8",
+      "field": "territorialidade",
+      "expected_theme": "Âmbito geográfico",
+      "page": 23,
+      "quote": "ÂMBITO GEOGRÁFICO DE COBERTURA"
+    },
+    {
+      "id": "G11",
+      "document_id": "berkley_do_202512",
+      "sha256": "038683e096c2ae0378df25ef18d147493f72627399d1530310af14023df8fea8",
+      "field": "jurisdicao_lei",
+      "expected_theme": "Cláusula de foro",
+      "page": 49,
+      "quote": "FORO"
+    },
+    {
+      "id": "G12",
+      "document_id": "berkley_do_202512",
+      "sha256": "038683e096c2ae0378df25ef18d147493f72627399d1530310af14023df8fea8",
+      "field": "exclusoes",
+      "expected_theme": "Seção de riscos excluídos",
+      "page": 23,
+      "quote": "RISCOS EXCLUÍDOS"
+    },
+    {
+      "id": "G13",
+      "document_id": "berkley_do_202512",
+      "sha256": "038683e096c2ae0378df25ef18d147493f72627399d1530310af14023df8fea8",
+      "field": "sublimites",
+      "expected_theme": "Sublimite mencionado em cláusula de excesso",
+      "page": 82,
+      "quote": "sublimite"
+    },
+    {
+      "id": "G14",
+      "document_id": "berkley_do_202512",
+      "sha256": "038683e096c2ae0378df25ef18d147493f72627399d1530310af14023df8fea8",
+      "field": "prazo_aviso_sinistro",
+      "expected_theme": "Definição de aviso de sinistro",
+      "page": 8,
+      "quote": "AVISO DE SINISTRO"
+    },
+    {
+      "id": "G15",
+      "document_id": "berkley_do_202512",
+      "sha256": "038683e096c2ae0378df25ef18d147493f72627399d1530310af14023df8fea8",
+      "field": "cancelamento_renovacao",
+      "expected_theme": "Cláusula de renovação",
+      "page": 33,
+      "quote": "RENOVAÇÃO"
+    },
+    {
+      "id": "G16",
+      "document_id": "berkley_do_202512",
+      "sha256": "038683e096c2ae0378df25ef18d147493f72627399d1530310af14023df8fea8",
+      "field": "premio",
+      "expected_theme": "Cláusula de prêmio",
+      "page": 36,
+      "quote": "PRÊMIO"
+    },
+    {
+      "id": "G17",
+      "document_id": "berkley_do_202512",
+      "sha256": "038683e096c2ae0378df25ef18d147493f72627399d1530310af14023df8fea8",
+      "field": "periodo_estendido_notificacao",
+      "expected_theme": "Prazo adicional mencionado em definições",
+      "page": 7,
+      "quote": "Prazo Adicional"
+    },
+    {
+      "id": "G18",
+      "document_id": "axa_do_202512_v1",
+      "sha256": "1798723c7a3078496bfc9dcedcc5a02ac5e1a5466784264d517f3ad9f8bc5f19",
+      "field": "side_c",
+      "expected_theme": "Reembolso de reclamações no mercado de capitais, condicional",
+      "page": 63,
+      "quote": "Cobertura \"C\" - Reembolso de Reclamações no Mercado de Capitais"
+    },
+    {
+      "id": "G19",
+      "document_id": "axa_do_202512_v1",
+      "sha256": "1798723c7a3078496bfc9dcedcc5a02ac5e1a5466784264d517f3ad9f8bc5f19",
+      "field": "periodo_estendido_notificacao",
+      "expected_theme": "Prazo complementar de reclamações",
+      "page": 57,
+      "quote": "PRAZO COMPLEMENTAR PARA APRESENTAÇÃO DE RECLAMAÇÕES"
+    },
+    {
+      "id": "G20",
+      "document_id": "axa_do_202512_v1",
+      "sha256": "1798723c7a3078496bfc9dcedcc5a02ac5e1a5466784264d517f3ad9f8bc5f19",
+      "field": "custos_defesa",
+      "expected_theme": "Cobertura adicional de custos de defesa",
+      "page": 98,
+      "quote": "COBERTURA ADICIONAL DE CUSTO DE DEFESA DO SEGURADO"
+    }
+  ]
+}

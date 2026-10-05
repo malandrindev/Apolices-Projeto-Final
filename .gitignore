@@ -1,41 +1,37 @@
-# Python
-__pycache__/
-*.py[cod]
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-.coverage
-htmlcov/
-
-# Ambientes e segredos
-.venv/
-venv/
+# Credentials
 .env
 .env.*
 !.env.example
 
-# IDE e sistema
-.idea/
-.vscode/
-.DS_Store
-Thumbs.db
-.ipynb_checkpoints/
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
 
-# Dados locais e armazenamento
-data/raw/*
-!data/raw/.gitkeep
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Generated data and model caches
+.DS_Store
+.streamlit/secrets.toml
+
+# Processed policy text and OCR cache can contain sensitive document contents.
 data/processed/*
 !data/processed/.gitkeep
-storage/*
-!storage/.gitkeep
+data/samples/*.pdf
 
-# Saídas reproduzíveis; a pasta de entrega permanece versionável
-outputs/figures/*
-!outputs/figures/.gitkeep
-outputs/tables/*
-!outputs/tables/.gitkeep
-outputs/comparisons/*
-!outputs/comparisons/.gitkeep
+# Delivery ZIP is built from committed HEAD and must not include itself.
+/Projeto_Final_Artefatos/InsurMinds_Codigo_e_Artefatos.zip
 
-# Pacotes locais
-*.zip
+# Final release: raw footage, alternate encodes and delivery ZIP remain local.
+/Projeto_Final_Artefatos/source/
+/Projeto_Final_Artefatos/video_versions/*
+!/Projeto_Final_Artefatos/video_versions/ROTEIRO_NARRACAO_PTBR.md
+/InsurMinds_Projeto_Final.zip
+/Projeto_Final_Artefatos/InsurMinds_Projeto_Final.zip

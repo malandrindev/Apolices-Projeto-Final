@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "dataset_version": "demo-do-v1",
+  "source_document": "allianz_demo_policy.pdf",
+  "original_source_document": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+  "original_source_sha256": "1778f9d09c187996e5cef8fda73a51c89ced0d0dc1772aaa4f327a9f5eb9a6cc",
+  "pages": [
+    {
+      "demo_page": 1,
+      "kind": "synthetic",
+      "source_file": null,
+      "source_page": null
+    },
+    {
+      "demo_page": 2,
+      "kind": "synthetic",
+      "source_file": null,
+      "source_page": null
+    },
+    {
+      "demo_page": 3,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "source_page": 8,
+      "source_sha256": "1778f9d09c187996e5cef8fda73a51c89ced0d0dc1772aaa4f327a9f5eb9a6cc",
+      "text_sha256": "5f4a8f71da57a35d17e674a3fc1d3cdcd419f9abedab2faacc93c5ea49c08b87"
+    },
+    {
+      "demo_page": 4,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "source_page": 9,
+      "source_sha256": "1778f9d09c187996e5cef8fda73a51c89ced0d0dc1772aaa4f327a9f5eb9a6cc",
+      "text_sha256": "1b36cf97d62a4e97e07607eac8f031da1c2a32d6beb63f4de02eb9d5f644fa24"
+    },
+    {
+      "demo_page": 5,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "source_page": 10,
+      "source_sha256": "1778f9d09c187996e5cef8fda73a51c89ced0d0dc1772aaa4f327a9f5eb9a6cc",
+      "text_sha256": "5ec14ae0dc0f2bb11db69f2393ceb4d72a3c8688ff74588033fb0a1b0a7462f4"
+    },
+    {
+      "demo_page": 6,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "source_page": 11,
+      "source_sha256": "1778f9d09c187996e5cef8fda73a51c89ced0d0dc1772aaa4f327a9f5eb9a6cc",
+      "text_sha256": "b91217d338a82ae6a1174bc9d61261df1b1c6d8c36e6fc9405ca5ecc1527f070"
+    },
+    {
+      "demo_page": 7,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "source_page": 12,
+      "source_sha256": "1778f9d09c187996e5cef8fda73a51c89ced0d0dc1772aaa4f327a9f5eb9a6cc",
+      "text_sha256": "14e06c68857bb6da0ba5f389a8a0a52274cbffbe44b40aa956b0c6493d906a7b"
+    },
+    {
+      "demo_page": 8,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "source_page": 13,
+      "source_sha256": "1778f9d09c187996e5cef8fda73a51c89ced0d0dc1772aaa4f327a9f5eb9a6cc",
+      "text_sha256": "85f54a1f7178cdbbb468331687f27fcbba26f523989bd902faa0f6d8168f59ee"
+    },
+    {
+      "demo_page": 9,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "source_page": 14,
+      "source_sha256": "1778f9d09c187996e5cef8fda73a51c89ced0d0dc1772aaa4f327a9f5eb9a6cc",
+      "text_sha256": "14c8d7396d57fedfdeff33203b6f3be91e2fd90bb7326ec727824f9c79faf9db"
+    },
+    {
+      "demo_page": 10,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "source_page": 15,
+      "source_sha256": "1778f9d09c187996e5cef8fda73a51c89ced0d0dc1772aaa4f327a9f5eb9a6cc",
+      "text_sha256": "3d91f4e8906218d28f245644db2870b02266bf5ffd7b59e71acbcf37041000a4"
+    },
+    {
+      "demo_page": 11,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "source_page": 16,
+      "source_sha256": "1778f9d09c187996e5cef8fda73a51c89ced0d0dc1772aaa4f327a9f5eb9a6cc",
+      "text_sha256": "e6db0df00a1f53ecd42413d8696662c067e3855f5d5b11c5294707c37e46e402"
+    },
+    {
+      "demo_page": 12,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "source_page": 17,
+      "source_sha256": "1778f9d09c187996e5cef8fda73a51c89ced0d0dc1772aaa4f327a9f5eb9a6cc",
+      "text_sha256": "971cee2e4c91a489e7905f322f16f67341787235df3a35a749b939444e107d79"
+    },
+    {
+      "demo_page": 13,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "source_page": 18,
+      "source_sha256": "1778f9d09c187996e5cef8fda73a51c89ced0d0dc1772aaa4f327a9f5eb9a6cc",
+      "text_sha256": "dbaac3fbbdb4841da93ac6905a7733c8921823bcf5a3d91e855fb3166e5f8122"
+    },
+    {
+      "demo_page": 14,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "source_page": 19,
+      "source_sha256": "1778f9d09c187996e5cef8fda73a51c89ced0d0dc1772aaa4f327a9f5eb9a6cc",
+      "text_sha256": "9f6ef486e186f0ecc10a9c4902219f4b082ca95f0feff99ba96c0e2f0f90b8c4"
+    },
+    {
+      "demo_page": 15,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "source_page": 21,
+      "source_sha256": "1778f9d09c187996e5cef8fda73a51c89ced0d0dc1772aaa4f327a9f5eb9a6cc",
+      "text_sha256": "e126c75136b5e4055019aba9b35cd31024693c0595b5ee458322a9bf8c5cb76e"
+    },
+    {
+      "demo_page": 16,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "source_page": 22,
+      "source_sha256": "1778f9d09c187996e5cef8fda73a51c89ced0d0dc1772aaa4f327a9f5eb9a6cc",
+      "text_sha256": "00ec0675b2d8a888107b77307c7f66b2bbef50e725951b8162a4f8be1d7a41b6"
+    },
+    {
+      "demo_page": 17,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "source_page": 24,
+      "source_sha256": "1778f9d09c187996e5cef8fda73a51c89ced0d0dc1772aaa4f327a9f5eb9a6cc",
+      "text_sha256": "a82d332a7f76ed3c2ca4ad5bffc717c222ecba8d84e4bb741031282540527e45"
+    },
+    {
+      "demo_page": 18,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "source_page": 25,
+      "source_sha256": "1778f9d09c187996e5cef8fda73a51c89ced0d0dc1772aaa4f327a9f5eb9a6cc",
+      "text_sha256": "d4b59f5c23ad72570208d26d880bec096cd96165c53a382ae50581ddfa4ca471"
+    },
+    {
+      "demo_page": 19,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "source_page": 27,
+      "source_sha256": "1778f9d09c187996e5cef8fda73a51c89ced0d0dc1772aaa4f327a9f5eb9a6cc",
+      "text_sha256": "132ac9ba7b9fc1761edcd355d92aeb4ff863abb1ec4de1ccaa7212a8627d565d"
+    },
+    {
+      "demo_page": 20,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "source_page": 28,
+      "source_sha256": "1778f9d09c187996e5cef8fda73a51c89ced0d0dc1772aaa4f327a9f5eb9a6cc",
+      "text_sha256": "357c1cba07eb6b64e2b9a9053f5b9e8ef60e1c2c135b1afb0f4532521dde6afa"
+    },
+    {
+      "demo_page": 21,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "source_page": 29,
+      "source_sha256": "1778f9d09c187996e5cef8fda73a51c89ced0d0dc1772aaa4f327a9f5eb9a6cc",
+      "text_sha256": "2f69288975e1682137ab9a0d7cdd6962cfe7f7a93258329646487565a368579c"
+    },
+    {
+      "demo_page": 22,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "source_page": 30,
+      "source_sha256": "1778f9d09c187996e5cef8fda73a51c89ced0d0dc1772aaa4f327a9f5eb9a6cc",
+      "text_sha256": "4427ba566d0a47846bdbcb0e98c3c1d3b202b4520d4f0ad35af0583212b4247b"
+    },
+    {
+      "demo_page": 23,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "source_page": 33,
+      "source_sha256": "1778f9d09c187996e5cef8fda73a51c89ced0d0dc1772aaa4f327a9f5eb9a6cc",
+      "text_sha256": "3354473597bd400d3b6ad6f14b0b4b33130cc3fdf3a8a90910eadb7199cd40c9"
+    },
+    {
+      "demo_page": 24,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "source_page": 34,
+      "source_sha256": "1778f9d09c187996e5cef8fda73a51c89ced0d0dc1772aaa4f327a9f5eb9a6cc",
+      "text_sha256": "d715af1879902ebd9a4b65edf14db8dd3751dc10bfa4648d0e86da0720b11efb"
+    },
+    {
+      "demo_page": 25,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "source_page": 36,
+      "source_sha256": "1778f9d09c187996e5cef8fda73a51c89ced0d0dc1772aaa4f327a9f5eb9a6cc",
+      "text_sha256": "8a74230549923fd16e965a796cce68b2bb2351625f5f198ce1388c29dd165e71"
+    },
+    {
+      "demo_page": 26,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "source_page": 37,
+      "source_sha256": "1778f9d09c187996e5cef8fda73a51c89ced0d0dc1772aaa4f327a9f5eb9a6cc",
+      "text_sha256": "f4deac093f96d59e83e5373685228098a32af53787c95d42dc6e16100750af68"
+    },
+    {
+      "demo_page": 27,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "source_page": 38,
+      "source_sha256": "1778f9d09c187996e5cef8fda73a51c89ced0d0dc1772aaa4f327a9f5eb9a6cc",
+      "text_sha256": "79afe38b27f13ff8a89dec9a2d2909f5493e2078689066a6ff70f3654c32300d"
+    },
+    {
+      "demo_page": 28,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "source_page": 39,
+      "source_sha256": "1778f9d09c187996e5cef8fda73a51c89ced0d0dc1772aaa4f327a9f5eb9a6cc",
+      "text_sha256": "4ef40bcf935603b6f3e7a867560ba816709de26dc99cd653d8e4c45f11bbce07"
+    },
+    {
+      "demo_page": 29,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "source_page": 40,
+      "source_sha256": "1778f9d09c187996e5cef8fda73a51c89ced0d0dc1772aaa4f327a9f5eb9a6cc",
+      "text_sha256": "92dcd29c751ba5da3848842713d39923646ef084b458cd560dab25f68684655d"
+    },
+    {
+      "demo_page": 30,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "source_page": 41,
+      "source_sha256": "1778f9d09c187996e5cef8fda73a51c89ced0d0dc1772aaa4f327a9f5eb9a6cc",
+      "text_sha256": "2601701304fc030fb02eccd0a1f1ad0cee0a9e163e4ce7ced67f88cfed2bc0eb"
+    },
+    {
+      "demo_page": 31,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "source_page": 46,
+      "source_sha256": "1778f9d09c187996e5cef8fda73a51c89ced0d0dc1772aaa4f327a9f5eb9a6cc",
+      "text_sha256": "38f6c86689119db43e2b5d3c0b21fdd8b1746f5a6ee8154f0bfae44941f88a28"
+    },
+    {
+      "demo_page": 32,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "source_page": 49,
+      "source_sha256": "1778f9d09c187996e5cef8fda73a51c89ced0d0dc1772aaa4f327a9f5eb9a6cc",
+      "text_sha256": "3da065f3410b7f583e8a5c67265ad6ffd9cc60723a21c9acbc80c94f46066eff"
+    },
+    {
+      "demo_page": 33,
+      "kind": "original_excerpt",
+      "source_file": "Apólice-Allianz Condições_Gerais- 2025_teste.pdf",
+      "source_page": 50,
+      "source_sha256": "1778f9d09c187996e5cef8fda73a51c89ced0d0dc1772aaa4f327a9f5eb9a6cc",
+      "text_sha256": "c019f5c5675a091b62ca3a4693a9f3f575ed0d0ced89dcc61ac64b293abee78d"
+    }
+  ]
+}
